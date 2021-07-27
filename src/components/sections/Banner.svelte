@@ -5,6 +5,7 @@
     .banner {
         /* height: 650px; */
         background-size: cover;
+        background-position: 0% 50%;
         background-repeat: no-repeat;
         color: var(--snow-color);
         font-weight: bold;
@@ -12,7 +13,7 @@
     }
 
     .banner .apla {
-        background: linear-gradient(90deg, rgba(46, 52, 64, 0.96) 33.33%, rgba(95, 95, 96, 0) 87.5%, rgba(255, 255, 255, 0) 99.99%, rgba(196, 196, 196, 0) 100%, rgba(196, 196, 196, 0) 100%);
+        background: linear-gradient(90deg, rgba(46, 52, 64, 0.66) 33.33%, rgba(95, 95, 96, 0) 87.5%, rgba(255, 255, 255, 0) 99.99%, rgba(196, 196, 196, 0) 100%, rgba(196, 196, 196, 0) 100%);
         width: 100%;
         height: 100%;
         position: absolute;
