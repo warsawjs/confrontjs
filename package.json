@@ -14,7 +14,7 @@
     "dev": "sapper dev",
     "build": "sapper build --legacy",
     "export": "sapper export --legacy",
-    "start": "node __sapper__/build",
+    "start": "serve -s build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
     "test": "run-p --race dev cy:run"
@@ -23,6 +23,7 @@
     "compression": "^1.7.1",
     "lodash-es": "^4.17.15",
     "polka": "next",
+    "serve": "^12.0.0",
     "sirv": "^0.4.0"
   },
   "devDependencies": {
