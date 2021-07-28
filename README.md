@@ -11,6 +11,8 @@ npm run dev
 ```
 
 ## Deployment
+Uses heroku.
+Staging: https://confrontjs-2019.herokuapp.com/
 
 ```bash
 npm version patch # when deploy patch (small update) or a bugfix
@@ -25,3 +27,4 @@ npm install -g cypress
 npm run dev
 npm test
 ```
+
