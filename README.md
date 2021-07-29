@@ -1,6 +1,6 @@
-# 2019.confrontjs.com
+# confrontjs.com
 
-[![07 December 2019](https://img.shields.io/badge/conference-07%20December%202019-%2523a64ac9.svg)](https://www.confrontjs.com)
+[![07 December 2021](https://img.shields.io/badge/conference-07%20December%202019-%2523a64ac9.svg)](https://www.confrontjs.com)
 
 ## Development
 
@@ -11,8 +11,6 @@ npm run dev
 ```
 
 ## Deployment
-Uses heroku.
-Staging: https://confrontjs-2019.herokuapp.com/
 
 ```bash
 npm version patch # when deploy patch (small update) or a bugfix
