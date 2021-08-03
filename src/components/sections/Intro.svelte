@@ -30,12 +30,10 @@
 
 <div class="intro-container">
 
-    <svg class="logo-confrontjs">
-        <use xlink:href="#icon-confrontjs-dark"></use>
-    </svg>
+    <img class="logo-confrontjs" src="/logo-512.png" alt="ConfrontJS logo"/>
 
     <p class="headline">Front-end Conference</p>
 
-    <p class="subline">7 December 2019 in Warsaw, Poland</p>
+    <p class="subline">11 December 2021 in Warsaw, Poland</p>
 
 </div>

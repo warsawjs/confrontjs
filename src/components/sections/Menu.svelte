@@ -95,9 +95,7 @@
 
 <nav class="nav-container">
     <a class="logo" href="/" title="ConFrontJS">
-        <svg class="logo-confrontjs">
-            <use xlink:href="#icon-confrontjs-light"></use>
-        </svg>
+        <img class="logo-confrontjs" src="/ConfrontJS logo 192 biała.png" alt="ConfrontJS logo"/>
     </a>
 
     <label for="hamburger" class="hamburger-button">≣</label>
