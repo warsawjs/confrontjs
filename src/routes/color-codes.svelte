@@ -25,7 +25,7 @@
 </style>
 
 <svelte:head>
-    <title>Color Codes • ConFrontJS 2019 • Front-end Conference in Warsaw</title>
+    <title>Color Codes • ConFrontJS 2021 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="color-codes-page">

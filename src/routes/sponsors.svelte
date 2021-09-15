@@ -72,13 +72,13 @@
 </style>
 
 <svelte:head>
-    <title>Sponsors • ConFrontJS 2019 • Front-end C onference</title>
+    <title>Sponsors • ConFrontJS 2021 • Front-end C onference</title>
 </svelte:head>
 
 <div class="sponsors-page">
     <Banner image="/promo/IMG_2978.png">
-        <p slot="description">07 December 2019 in Warsaw, Poland</p>
-        <h1 slot="header">ConFrontJS 2019 Sponsors</h1>
+        <p slot="description">11 December 2021 in Warsaw, Poland</p>
+        <h1 slot="header">ConFrontJS 2021 Sponsors</h1>
     </Banner>
 
     <WaveType6/>
