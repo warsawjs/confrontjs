@@ -9,12 +9,15 @@
         margin: 50px 0;
     }
 
+    .buy-tickets {
+        font-size: 24px;
+    }
 </style>
 
 <div class="buy-tickets-container">
 
     <a
-        class="button-primary"
+        class="buy-tickets button-primary"
         href={href}
     >
     <slot />
