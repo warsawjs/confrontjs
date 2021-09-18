@@ -1,8 +1,12 @@
 <script>
+  import { createEventDispatcher } from 'svelte';
+
   export let title;
-  export let description;
-  export let quantity = 1;
   export let price;
+  export let quantity;
+  export let total;
+
+  const dispatch = createEventDispatcher()
 </script>
 
 <style>
@@ -18,7 +22,8 @@
     border-radius: 10px;
   }
   h3 {
-    color: var(--snow-color)
+    color: var(--snow-color);
+    text-align: center;
   }
   .description p {
     color: var(--snow-color);
@@ -63,16 +68,16 @@
 <article class="ticket-card">
   <h3>{title}</h3>
   <div class="description">
-    <p>{description}</p>
+    <p>PLN {price}</p>
   </div>
   <div class="quantity-selection">
-    <button type="button" class="quantity-button">
+    <button type="button" class="quantity-button" on:click={() => dispatch('increment', {title, quantity})}>
      +
     </button>
-    <button type="button" class="quantity-button">
+    <button type="button" class="quantity-button" on:click={() => dispatch('decrement', {title, quantity})}>
       -
     </button>
-    <span class="quantity-display">{quantity}</span>
+    <span class="quantity-display">{quantity} / {total}</span>
   </div>
   <div class="confirm">
     <button type="button" class="button-mix">Add to cart</button>
