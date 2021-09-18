@@ -1,6 +1,6 @@
 <script>
     import Intro from '../components/sections/Intro.svelte';
-    import BuyTicketsButton from '../components/sections/BuyTicketsButton.svelte';
+    import CallToAction from '../components/shared/CallToAction.svelte';
     import Agenda from '../components/sections/Agenda.svelte';
     import Summary from '../components/sections/Summary.svelte';
     import VenueInsight from '../components/sections/VenueInsight.svelte';
@@ -22,7 +22,7 @@
 
 <div class="index-page">
     <Intro/>
-    <BuyTicketsButton/>
+    <CallToAction href="/buy-a-ticket">BUY TICKETS</CallToAction>
     <WaveType1/>
     <Agenda/>
     <WaveType2/>
