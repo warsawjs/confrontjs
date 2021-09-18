@@ -1,5 +1,52 @@
 <script>
   import TicketCard from "../shared/TicketCard.svelte";
+
+  let tickets = [
+    {title: 'Pre early bird',
+     price: 190,
+     total: 50,
+     quantity: 1 
+    },
+    {title: 'Pre early bird for 2',
+     price: 300,
+     total: 50,
+     quantity: 1 
+    },
+    {title: 'Early bird',
+     price: 250,
+     total: 100,
+     quantity: 1 
+    },    
+    {title: 'Early bird for 2',
+     price: 400,
+     total: 100,
+     quantity: 1 
+    },    
+    {title: 'Regular',
+     price: 500,
+     total: 200,
+     quantity: 1 
+    },    
+    {title: 'VIP - Premium',
+     price: 1500,
+     total: 50,
+     quantity: 1 
+    }
+  ]
+
+  function increment(e) {
+    const { title } = e.detail;
+    const target = tickets.find(t => t.title === title)
+    target.quantity = target.quantity < target.total ? target.quantity + 1 : target.quantity
+    tickets = [...tickets]
+  }
+
+  function decrement(e) {
+    const { title } = e.detail;
+    const target = tickets.find(t => t.title === title)
+    target.quantity = target.quantity > 1 ? target.quantity - 1 : target.quantity;
+    tickets = [...tickets]
+  }
 </script>
 
 <style>
@@ -10,10 +57,7 @@
     align-items: center;
     min-height: 60vh;
     position: relative;
-  }
-
-  h1 {
-    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+    z-index: 4;
   }
   .card-display {
     display: grid;
@@ -23,7 +67,6 @@
     width: 60%;
     gap: 20px;
     padding: 10px;
-    z-index: 10;
   }
 
 
@@ -31,10 +74,17 @@
 </style>
 
 <section class="ticket-section">
-  <h1>Ticket Shop</h1>
+  <h1>Tickets</h1>
   <div class="card-display">
-    <TicketCard title="basic" description="Ticket includes to to i to a tego nie"/>
-    <TicketCard title="premium" description="Ticket includes to to i to"/>
-    <TicketCard title="full" description="Ticket includes to to i to plus to"/>
+    {#each tickets as  ticket}
+    <TicketCard 
+    title={ticket.title} 
+    price={ticket.price} 
+    quantity={ticket.quantity} 
+    total={ticket.total}
+    on:decrement={decrement}
+    on:increment={increment}
+    />
+    {/each}
   </div>
 </section>
