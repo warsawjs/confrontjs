@@ -1,5 +1,16 @@
 <script>
-  let total = 0;
+  import { onDestroy } from 'svelte';
+  import ticketStore from '../stores/ticket-store.js';
+
+  let cartItems = []
+  const unsubscribe = ticketStore.subscribe(store => cartItems = store)
+  $: total = cartItems.reduce((sum, { price, quantity }) => sum + price * quantity, 0)
+
+  onDestroy(() => {
+    if (unsubscribe) {
+      unsubscribe();
+    }
+  })
 </script>
 
 <style>
