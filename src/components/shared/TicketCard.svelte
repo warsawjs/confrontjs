@@ -21,7 +21,7 @@
     padding: 20px;
     border-radius: 10px;
   }
-  h3 {
+  h4 {
     color: var(--snow-color);
     text-align: center;
   }
@@ -66,7 +66,7 @@
 
 
 <article class="ticket-card">
-  <h3>{title}</h3>
+  <h4>{title}</h4>
   <div class="description">
     <p>PLN {price}</p>
   </div>
@@ -80,6 +80,6 @@
     <span class="quantity-display">{quantity} / {total}</span>
   </div>
   <div class="confirm">
-    <button type="button" class="button-mix">Add to cart</button>
+    <button type="button" class="button-mix" on:click={() => dispatch('add-to-cart', {title, price, quantity})}>Add to cart</button>
   </div>
 </article>
