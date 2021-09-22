@@ -1,38 +1,48 @@
 <script>
+  import { onDestroy } from 'svelte';
   import TicketCard from "../shared/TicketCard.svelte";
+  import CallToAction from '../shared/CallToAction.svelte';
+  import ticketStore from '../stores/ticket-store.js'
 
   let tickets = [
     {title: 'Pre early bird',
      price: 190,
      total: 50,
-     quantity: 1 
+     quantity: 0 
     },
     {title: 'Pre early bird for 2',
      price: 300,
      total: 50,
-     quantity: 1 
+     quantity: 0 
     },
     {title: 'Early bird',
      price: 250,
      total: 100,
-     quantity: 1 
+     quantity: 0 
     },    
     {title: 'Early bird for 2',
      price: 400,
      total: 100,
-     quantity: 1 
+     quantity: 0 
     },    
     {title: 'Regular',
      price: 500,
      total: 200,
-     quantity: 1 
+     quantity: 0 
     },    
     {title: 'VIP - Premium',
      price: 1500,
      total: 50,
-     quantity: 1 
+     quantity: 0 
     }
   ]
+
+  let storeItems = []
+
+  const unsubscribe = ticketStore.subscribe(store => {
+    storeItems = store
+  })
+
 
   function increment(e) {
     const { title } = e.detail;
@@ -44,9 +54,27 @@
   function decrement(e) {
     const { title } = e.detail;
     const target = tickets.find(t => t.title === title)
-    target.quantity = target.quantity > 1 ? target.quantity - 1 : target.quantity;
+    target.quantity = target.quantity > 0 ? target.quantity - 1 : target.quantity;
     tickets = [...tickets]
   }
+
+  function addToCart(e) {
+    const { title } = e.detail;
+    const selectedItem = tickets.find(t => t.title === title);
+    const ticketInStore = storeItems.find(t => t.title === title)
+
+    if (selectedItem.quantity > 0) {
+      ticketInStore ? ticketStore.updateTicket(title, selectedItem) : ticketStore.addTicket(selectedItem)
+    } else {
+      ticketStore.removeTicket(selectedItem.title)
+    }
+  }
+
+  onDestroy(() => {
+    if (unsubscribe) {
+      unsubscribe();
+    }
+  })
 </script>
 
 <style>
@@ -68,9 +96,6 @@
     gap: 20px;
     padding: 10px;
   }
-
-
-
 </style>
 
 <section class="ticket-section">
@@ -84,7 +109,9 @@
     total={ticket.total}
     on:decrement={decrement}
     on:increment={increment}
+    on:add-to-cart={addToCart}
     />
     {/each}
   </div>
+  <CallToAction href="/checkout">Checkout</CallToAction>
 </section>
