@@ -20,7 +20,10 @@
     align-items: center;
     justify-content: space-between;
   }
-
+  .ticket {
+    position: relative;
+    margin-left: 20px;
+  }
     .ticket__icon {
     position: absolute;
     top: -15px;
@@ -38,7 +41,7 @@
   }
   .ticket__description {
     width: 100%;
-    margin-left: 40px;
+    margin-left: 60px;
     display: flex;
   }
     .count-btn {
