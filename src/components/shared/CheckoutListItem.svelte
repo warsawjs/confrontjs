@@ -58,8 +58,8 @@
   </div>
   <div class="ticket__description">
     <span class="ticket__title">{title}</span>
-    <button on:click="{() => dispatch('decrement'), {title, quantity}}" class="count-btn">-</button>
+    <button on:click="{() => dispatch('decrement', {title, quantity}) }" class="count-btn">-</button>
     <span>{quantity}</span>
-    <button on:click="{() => dispatch('increment'), {title, quantity}}" class="count-btn">+</button>
+    <button on:click="{() => dispatch('increment', {title, quantity})}" class="count-btn">+</button>
   </div> 
 </li>
