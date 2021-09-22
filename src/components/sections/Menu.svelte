@@ -1,4 +1,5 @@
 <script>
+    import CartWidget from '../shared/CartWidget.svelte'
     export let segment = '';
 </script>
 
@@ -128,6 +129,9 @@
                     data-content="Buy tickets"
                     href="/buy-a-ticket"
                 >Buy tickets</a>
+            </li>
+            <li>
+                <CartWidget />
             </li>
         </ul>
     </div>
