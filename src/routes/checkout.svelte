@@ -71,6 +71,12 @@
   .payment {
     padding-top: 50px;
   }
+
+  @media(max-width: 800px) {
+    .checkout-wrapper {
+      flex-direction: column;
+    }
+  }
 </style>
 
 <svelte:head>
@@ -94,7 +100,6 @@
         {/each}
       </ul>
     </div>
-    <article class="payment"><h2>Payment center</h2></article>
     {:else}
       <h3>The cart is empty</h3>
       <img class="cart-icon" src="/shopping-cart-svgrepo-com.svg"  alt="empty-cart-icon"/>
@@ -105,6 +110,9 @@
       >Get tickets</a>
     {/if}
   </article>
+  {#if $ticketStore.length}
+  <article class="payment"><h2>Payment center</h2></article>
+  {/if}
  </section>
 
 
