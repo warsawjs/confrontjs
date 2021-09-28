@@ -18,10 +18,11 @@
     display: flex;
     align-items: center;
     width: 70px;
-    height: 100%;
+    height: 40px;
     border: 1px solid var(--primary-color);
     border-radius: 7px;
     padding: 4px;
+    margin: 15px 0 0 7px;
   }
 
   .icon {
