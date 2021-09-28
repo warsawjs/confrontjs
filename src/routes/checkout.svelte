@@ -1,30 +1,3 @@
-<script context="module">
-  export function preload(page) {
-    return this.fetch('https://secure.snd.payu.com/pl/standard/user/oauth/authorize', {
-      method: 'POST',
-      headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      "Cache-Control": "no-cache",
-      "Cookie": "payu_persistent=mobile_agent-false#;cookieFingerprint=909cfcdd-c87c-40be-8523-c4d63d6a3c30",
-    },
-      body: "grant_type=client_credentials&client_id=424986&client_secret=4bee845d822913554e5e0f81d7a6ed21",
-    }).then(res => {
-        if (!res.ok) {
-          console.log(res)
-          throw new Error("Fetching payU failed, please try again later!");
-        }
-        return res;
-      })
-      .then(data => {
-       console.log(data)
-       return { payUdata: data }
-      })
-      .catch(err => {
-        console.log(err);
-      });
-  }
-</script>
-
 <script>
   import { onDestroy } from 'svelte'
   import CheckoutListItem from '../components/shared/CheckoutListItem.svelte';
