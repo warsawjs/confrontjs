@@ -30,9 +30,7 @@
 
 <div class="intro-container">
 
-    <svg class="logo-confrontjs">
-        <use xlink:href="#icon-confrontjs-dark"></use>
-    </svg>
+    <img class="logo-confrontjs" src="/ConfrontJS_logo_512_szara.png" alt="ConfrontJS logo" />
 
     <p class="headline">Front-end Conference</p>
 
