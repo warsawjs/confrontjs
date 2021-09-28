@@ -13,12 +13,12 @@
 </script>
 
 <svelte:head>
-    <title>Venue • ConFrontJS 2021 • Front-end Conference in Warsaw</title>
+    <title>Venue • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <Banner image="/promo/72275771_416666755700619_2198959204704714752_o.png">
     <p slot="description">11 December 2021 in Warsaw, Poland</p>
-    <h1 slot="header">ConFrontJS 2021 Venue</h1>
+    <h1 slot="header">ConfrontJS 2021 Venue</h1>
 </Banner>
 
 <div class="venue-page">

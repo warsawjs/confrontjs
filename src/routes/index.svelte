@@ -17,7 +17,7 @@
 </style>
 
 <svelte:head>
-    <title>ConFrontJS 2021 • Front-end Conference in Warsaw</title>
+    <title>ConfrontJS 2021 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="index-page">

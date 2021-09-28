@@ -37,13 +37,13 @@
 </style>
 
 <svelte:head>
-    <title>Speakers • ConFrontJS 2021 • Front-end Conference in Warsaw</title>
+    <title>Speakers • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="speakers-page">
     <Banner image="/promo/confrontjsAviTejas.png">
         <p slot="description">11 December 2021 in Warsaw, Poland</p>
-        <h1 slot="header">ConFrontJS 2021 Speakers</h1>
+        <h1 slot="header">ConfrontJS 2021 Speakers</h1>
     </Banner>
 
     <div class="content">

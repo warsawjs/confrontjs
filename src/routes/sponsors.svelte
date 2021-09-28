@@ -72,13 +72,13 @@
 </style>
 
 <svelte:head>
-    <title>Sponsors • ConFrontJS 2021 • Front-end C onference</title>
+    <title>Sponsors • ConfrontJS 2021 • Front-end C onference</title>
 </svelte:head>
 
 <div class="sponsors-page">
     <Banner image="/promo/IMG_2978.png">
         <p slot="description">11 December 2021 in Warsaw, Poland</p>
-        <h1 slot="header">ConFrontJS 2021 Sponsors</h1>
+        <h1 slot="header">ConfrontJS 2021 Sponsors</h1>
     </Banner>
 
     <WaveType6/>
@@ -147,7 +147,7 @@
                 <h2>What About You?</h2>
 
                 <p>
-                    Sponsoring ConFrontJS is a great way to contribute to the healthy growth
+                    Sponsoring ConfrontJS is a great way to contribute to the healthy growth
                     of TypeScript’s open source community. Please join us in creating
                     an amazing experience for each and every attendee.
                 </p>

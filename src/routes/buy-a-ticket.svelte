@@ -6,7 +6,7 @@
 </style>
 
 <svelte:head>
-  <title>Buy a ticket • ConFrontJS 2021 • Front-end Conference in Warsaw</title>
+  <title>Buy a ticket • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="">
