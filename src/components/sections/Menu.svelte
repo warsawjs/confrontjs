@@ -10,6 +10,7 @@
         text-align: center;
         display: flex;
         justify-content: center;
+        align-items: center;
 	}
 
 	/* clearfix */
@@ -91,14 +92,17 @@
         #hamburger:checked + .menu-list ul li {
             display: block;
         }
+        .cart-widget {
+            display: inline-block;
+            position: relative;
+            transform: translateY(-30%);
+        }
     }
 </style>
 
 <nav class="nav-container">
-    <a class="logo" href="/" title="ConFrontJS">
-        <svg class="logo-confrontjs">
-            <use xlink:href="#icon-confrontjs-light"></use>
-        </svg>
+    <a class="logo" href="/" title="ConfrontJS">
+        <img class="logo-confrontjs" src="/ConfrontJS_logo_192_biała.png" alt="ConfrontJS logo" />
     </a>
 
     <label for="hamburger" class="hamburger-button">≣</label>
@@ -130,9 +134,9 @@
                     href="/buy-a-ticket"
                 >Buy tickets</a>
             </li>
-            <li>
-                <CartWidget />
-            </li>
         </ul>
+    </div>
+    <div class="cart-widget">
+        <CartWidget />
     </div>
 </nav>
