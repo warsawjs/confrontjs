@@ -5,32 +5,44 @@
   import ticketStore from '../stores/ticket-store.js'
 
   let tickets = [
-    {title: 'Pre early bird',
+    {
+     id:'price_1JgAXnEjkyMmX0J55jSRwgMi',
+     title: 'Pre early bird',
      price: 190,
      total: 50,
      quantity: 0 
     },
-    {title: 'Pre early bird for 2',
+    {
+     id:'price_1JgAYTEjkyMmX0J5sUb4Hm0y',
+     title: 'Pre early bird for 2',
      price: 300,
      total: 50,
      quantity: 0 
     },
-    {title: 'Early bird',
+    {
+     id:'price_1JgAZKEjkyMmX0J568PV9CXq',
+     title: 'Early bird',
      price: 250,
      total: 100,
      quantity: 0 
     },    
-    {title: 'Early bird for 2',
+    {
+     id:'price_1JgAZxEjkyMmX0J53TOD5T50',
+     title: 'Early bird for 2',
      price: 400,
      total: 100,
      quantity: 0 
     },    
-    {title: 'Regular',
+    {
+     id:'price_1JgAcaEjkyMmX0J5ovszIf56',
+     title: 'Regular',
      price: 500,
      total: 200,
      quantity: 0 
     },    
-    {title: 'VIP - Premium',
+    {
+     id:'price_1JgAdTEjkyMmX0J5HTlxc3Dd',
+     title: 'VIP - Premium',
      price: 1500,
      total: 50,
      quantity: 0 
