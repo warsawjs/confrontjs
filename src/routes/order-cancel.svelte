@@ -13,5 +13,5 @@
 </svelte:head>
 
 <div class="vh">
-  <h1>nie hura nie kupiłeś!</h1>
+  <h1>nie hura nie kupiłeś bileciku!</h1>
 </div>
