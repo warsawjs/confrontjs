@@ -2,3 +2,5 @@
 command = "npm run export"
 functions = "functions"
 publish = "__sapper__/export"
+[[plugins]]
+package = "@netlify/plugin-functions-install-core"
