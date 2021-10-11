@@ -6,42 +6,42 @@
 
   let tickets = [
     {
-     id:'price_1JgAXnEjkyMmX0J55jSRwgMi',
+     id:'price_1JjTr3EMmVuoJdChUSBDkVZ2',
      title: 'Pre early bird',
      price: 190,
      total: 50,
      quantity: 0 
     },
     {
-     id:'price_1JgAYTEjkyMmX0J5sUb4Hm0y',
+     id:'price_1JjTrcEMmVuoJdChRL389PMV',
      title: 'Pre early bird for 2',
      price: 300,
      total: 50,
      quantity: 0 
     },
     {
-     id:'price_1JgAZKEjkyMmX0J568PV9CXq',
+     id:'price_1JjTsaEMmVuoJdChmLAOI4eh',
      title: 'Early bird',
      price: 250,
      total: 100,
      quantity: 0 
     },    
     {
-     id:'price_1JgAZxEjkyMmX0J53TOD5T50',
+     id:'price_1JjTt3EMmVuoJdChn5xV3mbm',
      title: 'Early bird for 2',
      price: 400,
      total: 100,
      quantity: 0 
     },    
     {
-     id:'price_1JgAcaEjkyMmX0J5ovszIf56',
+     id:'price_1JjTtwEMmVuoJdChFABlyiY9',
      title: 'Regular',
      price: 500,
      total: 200,
      quantity: 0 
     },    
     {
-     id:'price_1JgAdTEjkyMmX0J5HTlxc3Dd',
+     id:'price_1JjTuREMmVuoJdChl1VugtKn',
      title: 'VIP - Premium',
      price: 1500,
      total: 50,

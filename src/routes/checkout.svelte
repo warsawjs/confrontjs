@@ -45,7 +45,7 @@
  }
 
  async function submit() {
-    const stripe = await loadStripe('pk_test_51JfX15EjkyMmX0J5hhdGQbYpaLSXrZ5SvjpGqCvSlGUFbmOy3r82qWd2Eldy6yIqNSpvouXVWmrxcrrwR0Y9xfta00aHj6Djhs');
+    const stripe = await loadStripe('pk_live_51JhC8HEMmVuoJdChuRyD8C61qUthYaEqP8T0CfeWlgAU2SNLfuQkVgA8lAVNDiz3MCUeYndLyWnQSnPFgru5hR4L0080Myc0wQ');
 
     const lineItems = createPaymentData()
     if (!userEmail) {
