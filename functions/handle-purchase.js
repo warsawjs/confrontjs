@@ -6,6 +6,7 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 exports.handler = async ({ body, headers }) => {
   try {
+    body = JSON.parse(body);
     console.log(
       { body },
       { headers: headers["stripe-signature"] },
