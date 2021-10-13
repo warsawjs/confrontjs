@@ -6,7 +6,7 @@
 
   let tickets = [
     {
-     id:'price_1JkAx7EMmVuoJdChvzCoUDbA',
+     id:'price_1JjTr3EMmVuoJdChUSBDkVZ2',
      title: 'Pre early bird',
      price: 190,
      total: 50,
