@@ -59,8 +59,8 @@
         lineItems, 
         mode: 'payment', 
         customerEmail: userEmail, 
-        successUrl: 'https://confrontjs.netlify.app/order-success', 
-        cancelUrl: 'https://confrontjs.netlify.app/order-cancel' 
+        successUrl: 'https://confrontjs.netlify.app', 
+        cancelUrl: 'https://confrontjs.netlify.app' 
       }).then(res => console.log(res)).catch(err => console.log(err))
     }
   }
