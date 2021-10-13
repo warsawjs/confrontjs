@@ -6,6 +6,12 @@ sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 exports.handler = async ({ body, headers }) => {
   try {
+    console.log(
+      { body },
+      { headers: headers["stripe-signature"] },
+      { stripe_webhook: process.env.STRIPE_WEBHOOK_SECRET },
+      { stripe }
+    );
     const stripeEvent = stripe.webhooks.constructEvent(
       body,
       headers["stripe-signature"],
