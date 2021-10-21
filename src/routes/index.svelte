@@ -22,7 +22,8 @@
 
 <div class="index-page">
     <Intro/>
-    <CallToAction href="/buy-a-ticket">BUY TICKETS</CallToAction>
+    <CallToAction variant="primary" href="/buy-a-ticket">BUY TICKETS</CallToAction>
+    <CallToAction variant="secondary" href="https://docs.google.com/forms/d/e/1FAIpQLSeTgTnUZcg6S73EFWhS0lC_TtfhRpOixEA0qn5DfhwWbZ1wMA/viewform">CALL FOR PAPERS</CallToAction>
     <WaveType1/>
     <Agenda/>
     <WaveType2/>

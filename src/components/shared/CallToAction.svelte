@@ -1,5 +1,6 @@
 <script>
     export let href;
+    export let variant; // primary | secondary
 </script>
 
 <style>
@@ -17,7 +18,9 @@
 <div class="buy-tickets-container">
 
     <a
-        class="buy-tickets button-primary"
+        class="buy-tickets"
+        class:button-primary={variant === 'primary'}
+        class:button-mix={variant === 'secondary'}
         href={href}
     >
     <slot />
