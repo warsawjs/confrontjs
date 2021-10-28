@@ -17,14 +17,14 @@
     }
 </style>
 
-<p>Engineering Design Center (EDC)</p>
+<p>Palace of Culture and Science</p>
 
 <div class="d-flex mt-3 justify-content-center">
     <svg class="logo-marker">
         <use xlink:href="#icon-marker"></use>
     </svg>
     <address>
-        Aleja Krakowska 110/114<br/>
-        02-256 Warsaw, Poland
+        plac Defilad 1<br/>
+        00-901 Warsaw, Poland
     </address>
 </div>

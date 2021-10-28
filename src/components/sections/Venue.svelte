@@ -3,69 +3,49 @@
 </script>
 
 <style>
-    .lukasiewicz-institute-logo {
+    .palace-logo {
         width: 300px;
-    }
-    .edc-logo {
-        width: 200px;
+        margin-top: 30px;
     }
 </style>
 
 <div class="content">
     <div class="row my-3">
-        <div class="col-md-4 col-sm-12 text-center">
+        <div class="col-md-4 col-sm-12 text-center d-flex flex-column justify-content-start align-items-center">
             <img
-                class="lukasiewicz-institute-logo d-inline-block mb-4"
-                src="/sponsors/logo-lukasiewicz-institute.svg"
-                alt="Łukasiewicz Research Network"
-            />
-            <img
-                class="edc-logo d-inline-block"
-                src="/sponsors/logo-edc-dark.svg"
-                alt="EDC — Sponsor"
+                class="palace-logo d-inline-block"
+                src="/venue/palackultury.png"
+                alt="Palace of Culture and Science graphic"
             />
             <VenueName/>
         </div>
 
         <div class="col-md-6 col-sm-12">
-            <p>Łukasiewicz Research Network – Institute of Aviation</p>
+            <h4>Palace of Culture and Science</h4>
 
             <p>
-                Engineering Design Center (EDC) was created in April 2000 under
-                an agreement between General Electric Aircraft Engines and Warsaw
-                Institute of Aviation (now Łukasiewicz Research Network – Institute of
-                Aviation). EDC is one of several global GE establishments located outside
-                the United States and cooperates with such GE businesses as GE Aviation,
-                GE Power. It also carries out cooperative works with similar GE scientific
-                and engineering centers located in India, Mexico, Turkey and the United States.
-                The engineers working in EDC cooperate also with GE’s partners located,
-                among others, in Germany, Italy, United Kingdom, Romania, South Korea
-                and Taiwan.
+                One of the highest and most recognisable building in Warsaw can be seen from almost every part of the capital. 
+                Where did it come from? It was opened in 1955 on the initiative of Joseph Stalin as a “gift of the Soviet people for the Poles”. 
+                Built by Russian workers, for a long time, it was considered to be a symbol of socialist power and the pride of People’s Poland 
+                – it was where conventions of the Polish United Workers’ Party took place. 
+                Since its very beginning, its monumental interiors have hosted numerous concerts, exhibitions, fairs and shows.
             </p>
 
             <p>
-                In the first stage of its activities, the engineers working in EDC were
-                involved mainly in projects in the field of aviation. In 2007, the first
-                group of engineers started working in projects in the field of energy
-                and petroleum industry. Currently, nearly half of the engineers employed
-                in EDC are related with these two areas.
+                Currently, the palace is home to theatres, a cinema, museums, trendy pubs and the main Warsaw Tourist Information office.
+                Go up to the observation deck on the 30th floor of the building and see the beautiful panorama of the city from a height of 114 metres.
             </p>
 
             <p>
-                The engineers working in EDC are engaged in the design and improvement
-                of parts of units of aircraft engines, turbine propulsion systems for
-                ships and turbines for land applications (using of the so-called
-                areoderivative gas engines as electricity generators), high-power gas
-                turbines, steam turbines, as well as power boilers and environment
-                protection equipment, such as filters and electrostatic precipitators.
+                Take a look at the socialist realist sculptures placed in the niches of the palace’s facade. 
+                Each symbolises a different field of science, art, technology or culture, for example a young man with a book of classical literature, 
+                a member of komsomol, an archer and a woman from Central Asia. In a direct line from the main entrance, you will find a stone honour tribune, 
+                from which the first secretaries of the Central Committee of the Polish communist party greeted those marching on the May Day parade.
             </p>
 
-            <p>
-                The engineers from EDC are also involved in design, analysis
-                and servicing of such machines as compressors, turbonexpanders and gas
-                turbines used in the petroleum and chemical industries. EDC also carries
-                out activities related to supporting production and testing of parts
-                and components.
+            <p>In summer, the area around the palace becomes the arena for numerous concerts, theatre performances and film shows. 
+                In winter, it is a great place for skating enthusiasts thanks to the free ice skating rink. At night, the building is beautifully lit, 
+                and additional decorations illuminate special occasions.
             </p>
         </div>
     </div>

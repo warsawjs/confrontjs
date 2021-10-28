@@ -12,11 +12,23 @@
     export let segment = '';
 </script>
 
+<style>
+    .parking-img {
+        max-width: 50%;
+        height: auto;
+    }
+    @media (max-width: 800px) {
+        .parking-img {
+        max-width: 100%;
+    }
+    }
+</style>
+
 <svelte:head>
     <title>Venue • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
-<Banner image="/promo/72275771_416666755700619_2198959204704714752_o.png">
+<Banner image="/venue/kinoteka-banner1.png">
     <p slot="description">11 December 2021 in Warsaw, Poland</p>
     <h1 slot="header">ConfrontJS 2021 Venue</h1>
 </Banner>
@@ -24,15 +36,15 @@
 <div class="venue-page">
     <Venue/>
     <Map/>
-    <div class="text-center bg-white py-5">
-        <img class="img-fluid" src="/venue/edc-map.svg" alt=""/>
+    <div class="text-center bg-white py-5 ">
+        <img class="parking-img" src="/venue/parking.jpg" alt=""/>
     </div>
     <Parking/>
     <WaveType7/>
     <div class="row no-gutters">
-        <img class="col-md-4 col-sm-12" src="/photos/70399448_400618417305453_8600304597262663680_o.png" alt=""/>
-        <img class="col-md-4 col-sm-12" src="/photos/73422572_416666112367350_7145624763522613248_o.png" alt=""/>
-        <img class="col-md-4 col-sm-12" src="/photos/67621942_377105956323366_7508112822119694336_n.png" alt=""/>
+        <img class="col-md-4 col-sm-12" src="/venue/warsaw/lazienki.jpg" alt=""/>
+        <img class="col-md-4 col-sm-12" src="/venue/warsaw/business.jpg" alt=""/>
+        <img class="col-md-4 col-sm-12" src="/venue/warsaw/oldtown.jpg" alt=""/>
     </div>
     <WaveType8/>
     <WhereToStay/>
