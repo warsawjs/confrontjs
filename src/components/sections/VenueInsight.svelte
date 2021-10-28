@@ -19,16 +19,14 @@
             </div>
 
             <div class="col-md-6 col-sm-12">
-                <p><strong>Łukasiewicz Research Network – Institute of Aviation</strong></p>
-                <p><strong>Engineering Design Center</strong></p>
+                <p><strong>Palace of Culture and Science</strong></p>
 
                 <p>
-                Institute of Aviation was founded in 1926. It is one of the oldest research
-                institutes in the country. In the years 1954–1997, the institute managed to
-                obtain 390 patents, 53 protection rights for utility models and one right to
-                register a trademark. Today as Łukasiewicz Research Network – Institute of
-                Aviation it conducts scientific, research and design works on aviation and other
-                technical fields where related problems appear.
+                    One of the highest and most recognisable building in Warsaw can be seen from almost every part of the capital. 
+                    Where did it come from? It was opened in 1955 on the initiative of Joseph Stalin as a “gift of the Soviet people for the Poles”. 
+                    Built by Russian workers, for a long time, it was considered to be a symbol of socialist power and the pride of People’s Poland 
+                    – it was where conventions of the Polish United Workers’ Party took place. 
+                    Since its very beginning, its monumental interiors have hosted numerous concerts, exhibitions, fairs and shows.
                 </p>
             </div>
         </div>
@@ -36,4 +34,4 @@
 
 </section>
 
-<FullSizeImage image="/photos/72275771_416666755700619_2198959204704714752_o.png"></FullSizeImage>
+<FullSizeImage image="/venue/kinoteka-banner.png"></FullSizeImage>

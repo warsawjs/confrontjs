@@ -14,10 +14,9 @@
                 <p>
                     If you are subject to or witness unacceptable behavior, or have any other
                     concerns, please notify a conference organizer as soon as possible.
-                    The conference organizers are:<br/>
+                    The conference organizer is<br/>
 
-                    <strong>Katarzyna Grabowska</strong>, <strong>Piotr Kowalski</strong>
-                    and <strong>Piotr Zientara</strong>. You can contact them directly or
+                    <strong>Piotr Zientara</strong>. You can contact him directly or
                     via <a href="https://warsawjs.slack.com">warsawjs.slack.com</a> Additionally,
                     community organizers are available to help community members engage
                     with local law enforcement or to otherwise help those experiencing

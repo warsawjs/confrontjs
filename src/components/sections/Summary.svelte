@@ -22,6 +22,9 @@
         font-weight: bold;
         margin: 20px 0;
     }
+    .break-word {
+        padding: 0 140px 0 140px;
+    }
 </style>
 
 <div class="summary">
@@ -29,8 +32,8 @@
         <ul class="list-unstyled row">
 
             <li class="col-sm-4 col-xs-12">1 Day</li>
-            <li class="col-sm-4 col-xs-12">1 Track</li>
-            <li class="col-sm-4 col-xs-12">11 Talks</li>
+            <li class="col-sm-4 col-xs-12">2 Track</li>
+            <li class="col-sm-4 col-xs-12 break-word text-center">Lightning Talks</li>
 
         </ul>
     </div>
