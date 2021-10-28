@@ -1,19 +1,7 @@
 module.exports = [
-    // Gold Sponsor
-    require('./sponsors/grupa-pracuj'),
-
-    // Silver Sponsor
-    require('./sponsors/olx'),
-    require('./sponsors/jetbrains'),
-    require('./sponsors/docplanner'),
-    require('./sponsors/batmaid'),
-
-    // Bronze Sponsor
-    require('./sponsors/ckeditor5'),
-    require('./sponsors/vermag'),
-    require('./sponsors/visuality'),
-
-    // Venue Sponsor
-    require('./sponsors/lukasiewicz-institute'),
-    require('./sponsors/edc'),
+  // Gold Sponsor
+  // require('./sponsors/grupa-pracuj'),
+  // Silver Sponsor
+  // Bronze Sponsor
+  // Venue Sponsor
 ];
