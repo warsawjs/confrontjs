@@ -10,6 +10,7 @@
         color: var(--snow-color);
         font-weight: bold;
         position: relative;
+        padding: 30px;
     }
 
     .banner .apla {

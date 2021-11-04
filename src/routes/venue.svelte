@@ -37,7 +37,7 @@
     <Venue/>
     <Map/>
     <div class="text-center bg-white py-5 ">
-        <img class="parking-img" src="/venue/parking.jpg" alt=""/>
+        <img class="parking-img" src="/venue/parking-map.png" alt=""/>
     </div>
     <Parking/>
     <WaveType7/>
