@@ -41,7 +41,7 @@
 </svelte:head>
 
 <div class="speakers-page">
-    <Banner image="/promo/SpeakersAvital-right.png">
+    <Banner image="/promo/Avital.png">
         <p slot="description">11 December 2021 in Warsaw, Poland</p>
         <h1 slot="header">ConfrontJS 2021 Speakers</h1>
     </Banner>
