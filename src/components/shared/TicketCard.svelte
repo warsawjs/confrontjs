@@ -5,6 +5,7 @@
   export let price;
   export let quantity;
   export let total;
+  export let disabled;
 
   const dispatch = createEventDispatcher()
 </script>
@@ -28,6 +29,11 @@
   .description p {
     color: var(--snow-color);
     text-align: center;
+  }
+
+  .description span {
+    font-weight: bold;
+    margin-bottom: 0;
   }
 
   .quantity-selection {
@@ -62,12 +68,24 @@
   .confirm {
     margin: 10px auto;
   }
+
+  .disabled {
+    pointer-events: none;
+    opacity: 0.7;
+  }
+  .fsSmall {
+    font-size: small;
+  }
+
 </style>
 
 
-<article class="ticket-card">
+<article class="ticket-card" class:disabled={disabled}>
   <h4>{title}</h4>
-  <div class="description">
+  <div class="description" class:fsSmall={disabled}>
+    {#if disabled}
+    <span class="primary-color">SOLD OUT</span>
+    {/if}
     <p>PLN {price}</p>
   </div>
   <div class="quantity-selection">

@@ -119,6 +119,7 @@
     price={ticket.price} 
     quantity={ticket.quantity} 
     total={ticket.total}
+    disabled={ticket.title === 'Pre early bird' || ticket.title === 'Pre early bird for 2'}
     on:decrement={decrement}
     on:increment={increment}
     on:add-to-cart={addToCart}
