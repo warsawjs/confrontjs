@@ -65,7 +65,7 @@
             >Download Press Kit</a>
 
             <p>
-                Copyright @ 2019 by
+                Copyright @ 2021 by
                 <a href="https://warsawjs.com/">WarsawJS</a>
                 &bull;
                 <a href="/code-of-conduct">Code of Conduct</a>
