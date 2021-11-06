@@ -30,9 +30,7 @@
 
 <div class="color-codes-page">
     <div class="content text-center">
-        <svg class="logo-confrontjs">
-            <use xlink:href="#icon-confrontjs-dark"></use>
-        </svg>
+        <img class="logo-confrontjs" src="/ConfrontJS_logo_512_szara.png" alt="ConfrontJS logo" />
 
         <h1>Color Codes</h1>
 
