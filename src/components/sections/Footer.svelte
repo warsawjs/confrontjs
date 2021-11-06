@@ -61,7 +61,7 @@
             <a
                 class="button-primary"
                 data-content="Download Press Kit"
-                href="https://drive.google.com/open?id=1QLgrDj1DuDo8NZw_QGjpow7nTLChnF5n"
+                href="https://drive.google.com/drive/folders/1fxIe9BftuFlWGIaAQU5Hho_XVLV2iRva"
             >Download Press Kit</a>
 
             <p>
