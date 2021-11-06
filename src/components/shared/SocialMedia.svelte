@@ -35,7 +35,7 @@
             </svg>
         </a>
         <a
-            href="https://www.instagram.com/confrontjs.photos/"
+            href="https://www.instagram.com/confrontjs.event/"
             title="Instagram"
         >
             <svg class="social-nav__icon">

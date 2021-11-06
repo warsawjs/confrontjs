@@ -155,7 +155,7 @@
                 <a
                     class="button-mix"
                     data-content="Download offer"
-                    href="https://drive.google.com/open?id=1ZB27yhtGoWkUBQopM6eSkbuvYIi5RaKW"
+                    href="https://drive.google.com/file/d/1nVDyyeq8m3rbcXLXFPdXI-moh0F6Pkqt"
                 >Download offer</a>
             </div>
 
