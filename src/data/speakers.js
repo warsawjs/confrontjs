@@ -1,5 +1,6 @@
 module.exports = [
   require("./speakers/avital-tzubeli"),
+  require("./speakers/tejas-kumar"),
   require("./speakers/eleftheria-batsou"),
   require("./speakers/elad-shechter"),
   require("./speakers/evgeny-kot"),
