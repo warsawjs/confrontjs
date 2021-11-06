@@ -1,14 +1,16 @@
 module.exports = {
-    name: 'Eleftheria Batsou',
-    position: 'App Developer',
-    company: 'MKI Hellas',
-    country: 'Greece',
-    bio: {
-        en: "Hi there, I’m Eleftheria, no one can really pronounce or remember my name so you can just call me Elli :) I currently work as an app developer and I'm freelancing as a content creator for Udemy, PacktPub and Skillshare. In my free time, I create youtube videos about being a better developer, improving your career as well as tutorials and “how-to”. Since I work daily for a lot of hours I also try to stay active as much as possible, I love working out, going for long walks in nature or spending quality time with friends. I enjoy interacting and connecting with others, I like to share my passions and being sociable :)"
-    },
-    avatar_url: '/speakers/eleftheria-batsou.jpg',
-    contact: {
-        twitter_url: 'https://twitter.com/BatsouElef',
-        github_url: 'https://github.com/EleftheriaBatsou'
-    }
+  name: "Eleftheria Batsou",
+  position: "Community Manager",
+  company: "MKI Hellas",
+  country: "Greece",
+  bio: {
+    en: `Eleftheria is a Community Manager at Hashnode by day and a developer/UX researcher by night. Her studies include a major in Informatics and Telecommunications of engineering and a master's in Graphic Arts and Multimedia. She has created tech courses for several platforms such as Packt, Udemy, and Skillshare and she likes to produce motivational talks and how-to videos on her YouTube channel. She is self-motivated and working hard to make this world a little bit better every day.
+    When she isn't glued to a computer screen, Eleftheria spends time working out and strolling in nature. Her friends would describe her as easy-going, passionate about life and the fastest chocolate eater. 
+    `,
+  },
+  avatar_url: "/speakers/eleftheria-batsou.jpg",
+  contact: {
+    twitter_url: "https://twitter.com/BatsouElef",
+    github_url: "https://github.com/EleftheriaBatsou",
+  },
 };

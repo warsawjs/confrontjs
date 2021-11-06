@@ -2,6 +2,7 @@
     import AgendaItem from '../shared/AgendaItem.svelte';
     import Agenda from '../../data/agenda';
     export let segment = '';
+    console.log(Agenda)
 </script>
 
 <style>
@@ -19,6 +20,7 @@
 
         <ul class="list-unstyled">
             {#each Agenda as item, i}
+            
                 <li>
                     <AgendaItem item={item} index={i + 1}/>
                 </li>
