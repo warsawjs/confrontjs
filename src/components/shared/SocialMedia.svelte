@@ -43,7 +43,7 @@
             </svg>
         </a>
         <a
-            href="https://www.youtube.com/channel/UCmz8kA8ldl1QsH-m4WDVIGA"
+            href="https://www.youtube.com/confrontjs"
             title="YouTube"
         >
             <svg class="social-nav__icon">
