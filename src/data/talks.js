@@ -20,7 +20,7 @@ module.exports = [
     abstract: `Forms were not always a part of the web, in fact, they were only added in HTML2, and even to this day writing them feels like they are an afterthought.
     Vest is a powerful form validations framework inspired by the syntax and style of unit testing libraries like Mocha or Jest. It uses their declarative structure and makes it easy to write complex form validations that are also easy to read and maintain.
     Vest changes we think and about validation logic in our apps. Let's see what goes into building such a framework.`,
-    tech: ["JS", "React", "Vue", "Node", "Jest"],
+    tech: ["JS", "React.js", "Vue.js", "Node.js", "Jest"],
     speaker: require("./speakers/evyatar-alush"),
     slides_url: "",
     keynote: false,
@@ -37,7 +37,7 @@ module.exports = [
   {
     title: "Using Data Visualization to Fight COVID-19",
     abstract: `The years 2020-2021 will be remembered as the years of COVID-19 pandemic. During the pandemic, I was involved in building a web app for the Israel ministry of health. The app visualizes the chain of infection and helps decision makers to understand the characteristics of the virus spreading and other aspects. In this talk, I’ll delve into how we used D3, React and PixiJS in order to build the app.`,
-    tech: ["React", "D3", "PixiJS"],
+    tech: ["React.js", "D3.js", "PixiJS.js"],
     speaker: require("./speakers/gil-fink"),
     slides_url: "",
     keynote: false,
