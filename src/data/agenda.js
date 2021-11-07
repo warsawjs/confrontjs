@@ -12,7 +12,7 @@ function talkBy(name) {
   return name;
 }
 
-module.exports = [
+const opnening = [
   {
     start: "08:00",
     end: "09:30",
@@ -27,6 +27,9 @@ module.exports = [
     type: "talk",
     details: talkBy("Avital Tzubeli"),
   },
+];
+
+const trackOne = [
   {
     start: "10:00",
     end: "10:30",
@@ -38,8 +41,8 @@ module.exports = [
     start: "10:30",
     end: "11:00",
     duration: "00:30",
-    type: "talk",
-    details: talkBy("Elad Shechter"),
+    type: "",
+    details: "Sponsor Slot",
   },
   {
     start: "11:00",
@@ -52,49 +55,142 @@ module.exports = [
     start: "11:30",
     end: "12:00",
     duration: "00:30",
-    type: "talk",
-    details: talkBy("Amit Sheen"),
+    type: "",
+    details: "Sponsor Slot",
   },
   {
     start: "12:00",
     end: "12:30",
     duration: "00:30",
     type: "talk",
-    details: talkBy("Jemima Abu"),
+    details: talkBy("Amit Sheen"),
   },
   {
-    start: "12:30",
-    end: "13:00",
+    start: "13:45",
+    end: "14:15",
     duration: "00:30",
-    type: "talk",
-    details: talkBy("Gil Fink"),
+    type: "",
+    details: "Sponsor Slot",
   },
   {
-    start: "13:00",
-    end: "13:30",
+    start: "14:15",
+    end: "14:45",
     duration: "00:30",
     type: "talk",
     details: talkBy("Rakhi Sharma"),
   },
   {
-    start: "13:30",
-    end: "14:00",
+    start: "14:45",
+    end: "15:15",
+    duration: "00:30",
+    type: "",
+    details: "Sponsor Slot",
+  },
+  {
+    start: "15:15",
+    end: "16:45",
+    duration: "00:30",
+    type: "",
+    details: "Lightning Session",
+  },
+];
+const trackTwo = [
+  {
+    start: "10:00",
+    end: "10:30",
+    duration: "00:30",
+    type: "talk",
+    details: talkBy("Elad Shechter"),
+  },
+  {
+    start: "10:30",
+    end: "11:00",
+    duration: "00:30",
+    type: "",
+    details: "Sponsor Slot",
+  },
+  {
+    start: "11:00",
+    end: "11:30",
+    duration: "00:30",
+    type: "talk",
+    details: talkBy("Jemima Abu"),
+  },
+  {
+    start: "11:30",
+    end: "12:00",
+    duration: "00:30",
+    type: "",
+    details: "Sponsor Slot",
+  },
+  {
+    start: "12:00",
+    end: "12:30",
+    duration: "00:30",
+    type: "talk",
+    details: talkBy("Gil Fink"),
+  },
+  {
+    start: "13:45",
+    end: "14:15",
+    duration: "00:30",
+    type: "",
+    details: "Sponsor Slot",
+  },
+  {
+    start: "14:15",
+    end: "14:45",
     duration: "00:30",
     type: "talk",
     details: talkBy("Evyatar Alush"),
   },
   {
-    start: "14:30",
-    end: "15:00",
+    start: "14:45",
+    end: "15:15",
+    duration: "00:30",
+    type: "",
+    details: "Sponsor Slot",
+  },
+  {
+    start: "15:15",
+    end: "15:45",
     duration: "00:30",
     type: "talk",
     details: talkBy("Yonatan Kra"),
   },
   {
-    start: "15:00",
-    end: "15:30",
+    start: "15:45",
+    end: "16:15",
+    duration: "00:30",
+    type: "talk",
+    details: talkBy("Tomasz Stachewicz"),
+  },
+  {
+    start: "16:15", //14:30
+    end: "16:45", //15:00
+    duration: "00:30",
+    type: "",
+    details: "Lightning Session",
+  },
+];
+const dinner = [
+  {
+    start: "12:30",
+    end: "13:45",
+    duration: "01:15",
+    type: "",
+    details: "Dinner",
+  },
+];
+
+const closing = [
+  {
+    start: "17:00",
+    end: "17:30",
     duration: "00:30",
     type: "talk",
     details: talkBy("Tejas Kumar"),
   },
 ];
+
+module.exports = { opnening, trackOne, trackTwo, dinner, closing };

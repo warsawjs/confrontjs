@@ -20,10 +20,27 @@
 </script>
 
 <style>
+    ::-webkit-scrollbar {
+  width: 10px;
+}
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+  ::-webkit-scrollbar-thumb {
+  background: #888; 
+    border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  
+  background: #555; 
+} 
     .agenda-card {
         margin: 80px auto;
         width: 100%;
         text-align: left;
+        max-height: 350px;
+        overflow-y: auto;
+        display: flex;
     }
 
     .agenda-details h2 {
@@ -36,7 +53,24 @@
     }
 
     .agenda-content {
-        padding-top: 40px;
+        padding-top: 40px;    
+    }
+
+
+    @media (min-width: 999px) {
+        .agenda-content {
+            max-width: 50%;
+        }
+    }
+    @media (min-width: 1200px) {
+        .agenda-content {
+            max-width: 60%;
+        }
+    }
+    @media (min-width: 1400px) {
+        .agenda-content {
+            max-width: 65%;
+        }
     }
 
     .agenda-content h4.speaker-type {
@@ -107,6 +141,10 @@
         color: var(--mix-color);
     }
 
+    .scrollbarOff {
+        overflow: hidden !important;
+    }
+
     @media (max-width: 960px) {
         .speaker-avatar {
             max-width: 100%;
@@ -120,8 +158,8 @@
     }
 </style>
 
-<div class="agenda-card row { item.type } { getClass() }">
-    <div class="agenda-details col-lg-2 col-xs-12">
+<div class="agenda-card { item.type } { getClass() }" class:scrollbarOff={!item.type || item.start === "17:00"}>
+    <div class="agenda-details mx-2">
         <span class="iterator">{ twoDigits(index) }.</span>
 
         <h2>{ item.start }</h2>
@@ -140,7 +178,7 @@
         {/if}
     </div>
 
-    <div class="agenda-content offset-lg-1 col-lg-7 col-xs-12">
+    <div class="agenda-content col-lg-9 col-xs-12">
         {#if item.type === 'talk' }
             <h4 class="speaker-type">
                 <SpeakerTitle talk={item.details}/>
