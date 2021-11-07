@@ -1,6 +1,6 @@
 module.exports = {
   name: "Tejas Kumar",
-  position: "Senior Engineer @Spotify",
+  position: "Senior Engineer",
   company: "Spotify",
   country: "Germany",
   bio: {
