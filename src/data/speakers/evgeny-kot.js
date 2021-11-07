@@ -8,7 +8,7 @@ module.exports = {
   },
   avatar_url: "/speakers/evgeny-kot.jpeg",
   contact: {
-    twitter_url: "https://twitter.com/gilfink",
+    twitter_url: "https://twitter.com/bunopus",
     github_url: "https://github.com/bunopus",
   },
 };
