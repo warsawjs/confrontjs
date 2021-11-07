@@ -9,6 +9,6 @@ module.exports = {
   avatar_url: "/speakers/amit-sheen.jpg",
   contact: {
     twitter_url: "https://twitter.com/amit_sheen",
-    github_url: "https://github.com/Amit-Sheen",
+    linkedin_url: "https://www.linkedin.com/in/amit-sheen/",
   },
 };
