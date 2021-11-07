@@ -7,21 +7,12 @@
 </script>
 
 <style>
-    img {
-        width: 200px;
-        height: 100px;
-        margin: 10px;
-    }
-
     .gold-sponsor img {
         width: 500px;
         height: 300px;
     }
 
-    .silver-sponsor img {
-        height: 70px;
-    }
-
+ 
     @media (max-width: 600px) {
         .gold-sponsor img {
             width: 100%;
