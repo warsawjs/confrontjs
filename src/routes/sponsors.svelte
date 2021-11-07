@@ -14,7 +14,7 @@
             return (sponsor.type === type);
         });
     }
-
+console.log(Sponsor)
     const GoldSponsors = sponsorType('Gold');
     const VenueSponsors = sponsorType('Venue');
     const RestSponsors = Sponsors.filter((sponsor) => {

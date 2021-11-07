@@ -18,6 +18,10 @@
         height: 300px;
     }
 
+    .silver-sponsor img {
+        height: 70px;
+    }
+
     @media (max-width: 600px) {
         .gold-sponsor img {
             width: 100%;
