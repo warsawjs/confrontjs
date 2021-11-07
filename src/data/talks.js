@@ -17,9 +17,9 @@ module.exports = [
   },
   {
     title: "Building a next-gen validations framework",
-    abstract: `"Forms were not always a part of the web, in fact, they were only added in HTML2, and even to this day writing them feels like they are an afterthought.
+    abstract: `Forms were not always a part of the web, in fact, they were only added in HTML2, and even to this day writing them feels like they are an afterthought.
     Vest is a powerful form validations framework inspired by the syntax and style of unit testing libraries like Mocha or Jest. It uses their declarative structure and makes it easy to write complex form validations that are also easy to read and maintain.
-    Vest changes we think and about validation logic in our apps. Let's see what goes into building such a framework."`,
+    Vest changes we think and about validation logic in our apps. Let's see what goes into building such a framework.`,
     tech: ["JS", "React", "Vue", "Node", "Jest"],
     speaker: require("./speakers/evyatar-alush"),
     slides_url: "",
@@ -91,8 +91,16 @@ module.exports = [
     keynote: false,
   },
   {
-    title: "Closing keynote",
-    abstract: ``,
+    title: "JavaScript, spreadsheets and API",
+    abstract: `In every organization, someone uses a spreadsheet instead of specialized software. It works and it does the job. Sometimes, however, it would be nice to get to the API of the websites we use instead of pasting the data into the spreadsheet, and it would be best if it could be done with code in JS, the lingua franca of the Internet. It all turns out to be possible and that is exactly what we are going to play with during my presentation.`,
+    tech: ["JavaScript", "API"],
+    speaker: require("./speakers/tomasz-stachewicz"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "",
+    abstract: `Closing keynote`,
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/tejas-kumar"),
     slides_url: "",
