@@ -155,7 +155,7 @@ console.log(Sponsor)
                 <a
                     class="button-mix"
                     data-content="Download offer"
-                    href="https://drive.google.com/file/d/1nVDyyeq8m3rbcXLXFPdXI-moh0F6Pkqt"
+                    href="https://drive.google.com/file/d/1PS2QVehOaypftOjTbACoTNAMx5cxa97V"
                 >Download offer</a>
             </div>
 
