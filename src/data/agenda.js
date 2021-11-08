@@ -179,7 +179,7 @@ const dinner = [
     end: "13:45",
     duration: "01:15",
     type: "",
-    details: "Dinner",
+    details: "Lunch",
   },
 ];
 
