@@ -1,7 +1,9 @@
 module.exports = [
   {
-    title: "",
-    abstract: `Opening keynote`,
+    title: "Design Systems: The journey from chaos to consistency",
+    abstract: `Design systems are everywhere. At some point, we’ve all used bootstrap, material, or shoelace.  But we end up tweaking and changing and struggling with out of the box solutions, until we begin to fantasize about creating our own design system. 
+    But what does that process look like? What happens behind the scenes? Do we get enough value to justify the cost? 
+    This talk will describe the journey we took at Vonage to create our own design system, the challenges we faced on the way, and the surprising insights that turned an internally used tool into a customer facing product.`,
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/avital-tzubeli"),
     slides_url: "",
