@@ -39,6 +39,7 @@
         width: 100%;
         text-align: left;
         max-height: 350px;
+        max-width: 700px;
         overflow-y: auto;
         display: flex;
     }
