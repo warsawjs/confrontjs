@@ -6,6 +6,8 @@
   export let quantity;
   export let total;
   export let disabled;
+  export let description;
+  export let validity;
 
   const dispatch = createEventDispatcher()
 </script>
@@ -77,15 +79,35 @@
     font-size: small;
   }
 
+  .light-font {
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .fat-font {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .valid-until {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+  }
+
 </style>
 
 
 <article class="ticket-card" class:disabled={disabled}>
-  <h4>{title}</h4>
+  <h4 class="mb-1">{title}</h4>
   <div class="description" class:fsSmall={disabled}>
     {#if disabled}
-    <span class="primary-color">SOLD OUT</span>
+    <span class="primary-color d-block mt-4 fat-font">{description}</span>
+    {:else}
+    <p class="mb-1 light-font">Includes:</p>
+    <p class="mt-1 light-font">{description}</p>
     {/if}
+    <div class="valid-until">{validity}</div>
     <p>PLN {price}</p>
   </div>
   <div class="quantity-selection">

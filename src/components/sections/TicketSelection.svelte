@@ -10,42 +10,54 @@
      title: 'Pre early bird',
      price: 190,
      total: 50,
-     quantity: 0 
+     quantity: 0,
+     description: 'SOLD OUT', 
+     validity: ''
     },
     {
      id:'price_1JjTrcEMmVuoJdChRL389PMV',
      title: 'Pre early bird for 2',
      price: 300,
      total: 50,
-     quantity: 0 
+     quantity: 0,
+     description: 'SOLD OUT', 
+     validity: ''
     },
     {
      id:'price_1JjTsaEMmVuoJdChmLAOI4eh',
      title: 'Early bird',
      price: 250,
      total: 100,
-     quantity: 0 
+     quantity: 0,
+     description: 'Stationary access to the event', 
+     validity: 'Offer valid until November 14'
     },    
     {
      id:'price_1JjTt3EMmVuoJdChn5xV3mbm',
      title: 'Early bird for 2',
      price: 400,
      total: 100,
-     quantity: 0 
+     quantity: 0,
+     description: 'Stationary access to the event', 
+     validity: 'Offer valid until November 14'
     },    
     {
      id:'price_1JjTtwEMmVuoJdChFABlyiY9',
      title: 'Regular',
      price: 500,
      total: 200,
-     quantity: 0 
+     quantity: 0,
+     description: 'Stationary access to the event', 
+     validity: 'Offer valid while stocks last'
     },    
     {
      id:'price_1JjTuREMmVuoJdChl1VugtKn',
      title: 'VIP - Premium',
      price: 1500,
      total: 50,
-     quantity: 0 
+     quantity: 0,
+     description: 'Stationary access, Welcome dinner with the speakers on December 10, Gift Pack', 
+     validity: 'Offer valid while stocks last'
     }
   ]
 
@@ -119,6 +131,8 @@
     price={ticket.price} 
     quantity={ticket.quantity} 
     total={ticket.total}
+    description={ticket.description}
+    validity={ticket.validity}
     disabled={ticket.title === 'Pre early bird' || ticket.title === 'Pre early bird for 2'}
     on:decrement={decrement}
     on:increment={increment}
