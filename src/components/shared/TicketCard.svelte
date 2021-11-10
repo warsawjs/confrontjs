@@ -66,7 +66,7 @@
   .quantity-button:active {
     box-shadow: 0 1px 2px rgba(255, 255, 255, 0.2);
   }
-  
+
   .confirm {
     margin: 10px auto;
   }
@@ -110,16 +110,16 @@
     <div class="valid-until">{validity}</div>
     <p>PLN {price}</p>
   </div>
-  <div class="quantity-selection">
-    <button type="button" class="quantity-button" on:click={() => dispatch('increment', {title, quantity})}>
-     +
-    </button>
-    <button type="button" class="quantity-button" on:click={() => dispatch('decrement', {title, quantity})}>
-      -
-    </button>
-    <span class="quantity-display">{quantity} / {total}</span>
-  </div>
+<!--  <div class="quantity-selection">-->
+<!--    <button type="button" class="quantity-button" on:click={() => dispatch('increment', {title, quantity})}>-->
+<!--     +-->
+<!--    </button>-->
+<!--    <button type="button" class="quantity-button" on:click={() => dispatch('decrement', {title, quantity})}>-->
+<!--      - -->
+<!--    </button>-->
+<!--    <span class="quantity-display">{quantity} / {total}</span>-->
+<!--  </div>-->
   <div class="confirm">
-    <button type="button" class="button-mix" on:click={() => dispatch('add-to-cart', {title, price, quantity})}>Add to cart</button>
+    <a href="https://app.easycart.pl/checkout/confrontjs/confrontjs" type="button" class="button-mix">Buy</a>
   </div>
 </article>
