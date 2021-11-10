@@ -20,6 +20,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
@@ -36,6 +37,7 @@
   .description span {
     font-weight: bold;
     margin-bottom: 0;
+    flex-grow: 1;
   }
 
   .quantity-selection {
@@ -69,6 +71,7 @@
 
   .confirm {
     margin: 10px auto;
+    flex-shrink: 1;
   }
 
   .disabled {
