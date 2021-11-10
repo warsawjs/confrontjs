@@ -1,6 +1,16 @@
 <script>
-    import CartWidget from '../shared/CartWidget.svelte'
+    import { afterUpdate } from 'svelte'
     export let segment = '';
+
+    afterUpdate(() => {
+        let compare = ''
+        const checkbox = document.getElementById('hamburger')
+        if( compare !== segment ) {
+            checkbox.checked = false;
+        }
+        compare = segment
+    })
+
 </script>
 
 <style>
@@ -64,14 +74,14 @@
         margin: 15px 0 0 0;
         display: inline-block;
     }
-
     @media (max-width: 700px) {
         nav {
             display: block;
         }
         .logo-confrontjs {
             height: 60px;
-            line-height: 60px;
+            width: 60px;
+            transform: scale(1.3);
         }
         .logo {
             padding: 0;
@@ -85,17 +95,13 @@
             margin: 0;
             padding: 0 0 20px 0;
             display: none;
+            position: relative;
         }
         #hamburger:checked + .menu-list {
             display: block;
         }
         #hamburger:checked + .menu-list ul li {
             display: block;
-        }
-        .cart-widget {
-            display: inline-block;
-            position: relative;
-            transform: translateY(-30%);
         }
     }
 </style>
@@ -135,8 +141,5 @@
                 >Buy tickets</a>
             </li>
         </ul>
-    </div>
-    <div class="cart-widget">
-        <CartWidget />
     </div>
 </nav>
