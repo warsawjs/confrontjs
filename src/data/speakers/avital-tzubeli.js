@@ -1,6 +1,6 @@
 module.exports = {
   name: "Avital Tzubeli",
-  position: "Regional Advocate @Vonage | Technical Storytelling Coach",
+  position: "Regional Advocate @Vonage",
   company: "Vonage",
   country: "Israel",
   bio: {
