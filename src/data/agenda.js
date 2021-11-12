@@ -83,12 +83,12 @@ const trackOne = [
     start: "14:45",
     end: "15:15",
     duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
+    type: "talk",
+    details: talkBy("Tomasz Stachewicz"),
   },
   {
     start: "15:15",
-    end: "16:45",
+    end: "15:45",
     duration: "00:30",
     type: "",
     details: "Lightning Session",
@@ -144,30 +144,17 @@ const trackTwo = [
     type: "talk",
     details: talkBy("Evyatar Alush"),
   },
+
   {
     start: "14:45",
     end: "15:15",
-    duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
-  },
-  {
-    start: "15:15",
-    end: "15:45",
     duration: "00:30",
     type: "talk",
     details: talkBy("Yonatan Kra"),
   },
   {
-    start: "15:45",
-    end: "16:15",
-    duration: "00:30",
-    type: "talk",
-    details: talkBy("Tomasz Stachewicz"),
-  },
-  {
-    start: "16:15", //14:30
-    end: "16:45", //15:00
+    start: "15:15",
+    end: "15:45",
     duration: "00:30",
     type: "",
     details: "Lightning Session",
@@ -185,8 +172,8 @@ const dinner = [
 
 const closing = [
   {
-    start: "17:00",
-    end: "17:30",
+    start: "16:00",
+    end: "16:30",
     duration: "00:30",
     type: "talk",
     details: talkBy("Tejas Kumar"),

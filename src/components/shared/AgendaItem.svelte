@@ -44,6 +44,10 @@
         display: flex;
     }
 
+    .fix-height { 
+        height: 350px !important;
+    }
+
     .agenda-details h2 {
         padding: 20px 0;
         margin: 0;
@@ -159,7 +163,7 @@
     }
 </style>
 
-<div class="agenda-card { item.type } { getClass() }" class:scrollbarOff={!item.type || item.start === "17:00"}>
+<div class="agenda-card { item.type } { getClass() }" class:scrollbarOff={!item.type || item.start === "16:00"} class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'}>
     <div class="agenda-details mx-2">
         <span class="iterator">{ twoDigits(index) }.</span>
 
