@@ -105,7 +105,7 @@
   <h4 class="mb-1">{title}</h4>
   <div class="description" class:fsSmall={disabled}>
     {#if disabled}
-    <span class="primary-color d-block mt-4 fat-font">{description}</span>
+    <span class="primary-color d-block mt-4 fat-font text-center">{description}</span>
     {:else}
     <p class="mb-1 light-font">Includes:</p>
     <p class="mt-1 light-font">{description}</p>

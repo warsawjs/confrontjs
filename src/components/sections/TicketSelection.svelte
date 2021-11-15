@@ -29,8 +29,8 @@
      price: 250,
      total: 100,
      quantity: 0,
-     description: 'Stationary access to the event', 
-     validity: 'Offer valid until November 14'
+     description: 'SOLD OUT', 
+     validity: ''
     },    
     {
      id:'price_1JjTt3EMmVuoJdChn5xV3mbm',
@@ -38,8 +38,8 @@
      price: 400,
      total: 100,
      quantity: 0,
-     description: 'Stationary access to the event', 
-     validity: 'Offer valid until November 14'
+     description: 'SOLD OUT', 
+     validity: ''
     },    
     {
      id:'price_1JjTtwEMmVuoJdChFABlyiY9',
@@ -133,7 +133,7 @@
     total={ticket.total}
     description={ticket.description}
     validity={ticket.validity}
-    disabled={ticket.title === 'Pre early bird' || ticket.title === 'Pre early bird for 2'}
+    disabled={ticket.title === 'Pre early bird' || ticket.title === 'Pre early bird for 2' || ticket.title === 'Early bird' || ticket.title === 'Early bird for 2'}
     on:decrement={decrement}
     on:increment={increment}
     on:add-to-cart={addToCart}
