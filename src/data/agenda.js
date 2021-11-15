@@ -42,7 +42,7 @@ const trackOne = [
     end: "11:00",
     duration: "00:30",
     type: "",
-    details: "Sponsor Slot",
+    details: "Reserved Sponsor Slot",
   },
   {
     start: "11:00",
@@ -107,7 +107,7 @@ const trackTwo = [
     end: "11:00",
     duration: "00:30",
     type: "",
-    details: "Sponsor Slot",
+    details: "Reserved Sponsor Slot",
   },
   {
     start: "11:00",
