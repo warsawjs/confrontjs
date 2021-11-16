@@ -75,6 +75,7 @@
                 <a href="/contact">Contact</a>
                 &bull;
                 <a href="/color-codes">Color Codes</a>
+                <a href="/terms-and-conditions">Terms and Conditions</a>
             </p>
         </div>
 
