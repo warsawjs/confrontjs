@@ -58,7 +58,7 @@
                 <ul>
                     <li>Voluntarily complete the contact form</li>
                     <li>Use or view our website via your browser’s cookies</li>
-                    <li>Buy the ticket at evenea.pl</li>
+                    <li>Buy the ticket via easycart.pl</li>
                 </ul>
 
                 <h3>How will we use your data?</h3>
@@ -76,8 +76,8 @@
 
                 <h3>How do we store your data?</h3>
                 <p>
-                    Our Company securely stores your data at 
-                    <a href="https://evenea.pl/">https://evenea.pl/</a><br/><br/>
+                    Our Company securely stores your data. Your personal data is also processed by  <a href="easycart.pl">easycart.pl</a> when you purchase the ticket.
+                   <br/><br/>
                     
                     Our Company will keep your personal data for 10 years. Once this
                     time period has expired, we will delete your data by erasing the
@@ -88,6 +88,8 @@
                 <p>
                     Our Company would like to send you information about services of
                     ours that we think you might like.<br/><br/>
+                    
+                    We also share your data with our diamond sponsor, Monday.com.
 
                     If you have agreed to receive marketing, you may always opt out at
                     a later date.<br/><br/>
