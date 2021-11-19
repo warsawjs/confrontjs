@@ -5,6 +5,7 @@ module.exports = [
   require("./partners/typeofweb"),
   require("./partners/4programmers"),
   require("./partners/devenv"),
+  require("./partners/comandeer"),
   require("./partners/devszczepaniak"),
   require("./partners/highlab"),
   require("./partners/mzalewski"),
@@ -13,4 +14,5 @@ module.exports = [
   require("./partners/nowoczesny-frontend"),
   require("./partners/gamedevjs"),
   require("./partners/full-stack-geek"),
+  require("./partners/kernelgonnapanic.js"),
 ];
