@@ -68,13 +68,16 @@
                 Copyright @ 2021 by
                 <a href="https://warsawjs.com/">WarsawJS</a>
                 &bull;
-                <a href="/code-of-conduct">Code of Conduct</a>
-                &bull;
-                <a href="/privacy-policy">Privacy Policy</a>
+                <a href="/about-us">About us</a>
                 &bull;
                 <a href="/contact">Contact</a>
                 &bull;
+                <a href="/code-of-conduct">Code of Conduct</a>
+                &bull;
                 <a href="/color-codes">Color Codes</a>
+                &bull;
+                <a href="/privacy-policy">Privacy Policy</a>
+                &bull;
                 <a href="/terms-and-conditions">Terms and Conditions</a>
             </p>
         </div>
