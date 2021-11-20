@@ -88,10 +88,17 @@ const trackOne = [
   },
   {
     start: "15:15",
+    end: "15:20",
+    duration: "00:05",
+    type: "talk",
+    details: talkBy("Lara Sing"),
+  },
+  {
+    start: "15:20",
     end: "15:45",
-    duration: "00:30",
+    duration: "00:15",
     type: "",
-    details: "Lightning Session",
+    details: "Lightning Talks Session",
   },
 ];
 const trackTwo = [
@@ -157,7 +164,7 @@ const trackTwo = [
     end: "15:45",
     duration: "00:30",
     type: "",
-    details: "Lightning Session",
+    details: "Lightning Talks Session",
   },
 ];
 const dinner = [
