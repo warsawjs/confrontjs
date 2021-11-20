@@ -17,8 +17,9 @@
 console.log(Sponsor)
     const GoldSponsors = sponsorType('Gold');
     const VenueSponsors = sponsorType('Venue');
+    const SilverSponsors = sponsorType('Silver')
     const RestSponsors = Sponsors.filter((sponsor) => {
-        return ![...GoldSponsors, ...VenueSponsors].includes(sponsor);
+        return ![...GoldSponsors, ...SilverSponsors, ...VenueSponsors].includes(sponsor);
     });
 
     export let segment = '';
@@ -33,6 +34,11 @@ console.log(Sponsor)
     .sponsors-container h2.sponsor-type,
     .sponsors-container h3.sponsor-type {
         font-weight: normal;
+    }
+
+    .silver-heading{
+        font-size: 40px;
+        margin-bottom: 75px;
     }
 
     .sponsors-section {
@@ -113,14 +119,14 @@ console.log(Sponsor)
 
             {/if}
 
-            {#if RestSponsors.length > 0}
+            {#if SilverSponsors.length > 0}
 
-                <div class="rest-sponsors sponsors-section">
-                    <ul class="list-unstyled">
-                        {#each RestSponsors as sponsor, i}
+                <div class="sponsors-section">
+                    <h2 class="silver-heading">Silver Sponsors</h2>
+                    <ul class="list-unstyled d-flex align-items-center ">
+                        {#each SilverSponsors as sponsor, i}
                             <li class="sponsor-card">
                                 <Sponsor sponsor="{sponsor}"/>
-                                <h3 class="sponsor-type">{sponsor.type} Sponsor</h3>
                             </li>
                         {/each}
                     </ul>

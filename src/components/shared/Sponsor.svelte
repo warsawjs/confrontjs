@@ -21,7 +21,7 @@
 </style>
 
 <a
-    class="{ getClass() }"
+    class="{ getClass() } p-3"
     href={ sponsor.url }
     title={ sponsor.name }
     rel="noopener"
