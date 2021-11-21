@@ -4,8 +4,7 @@ module.exports = {
   company: 'I SEE YOU',
   country: 'Poland',
   bio: {
-    en: `
-            
+    en: `        
         `
   },
   avatar_url: '/speakers/lara-sing.jpg',
@@ -15,3 +14,4 @@ module.exports = {
     linkedin_url: '',
   }
 };
+
