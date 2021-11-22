@@ -219,7 +219,7 @@
                     UL. WAŁ MIEDZESZYŃSKI 420/23<br/>
                     03-994 WARSZAWA<br/>
                     NIP: 9522185629<br/>
-                    REGON: 0000745340<br/>
+                    REGON: 381052875<br/>
                 </address>
 
             </div>
