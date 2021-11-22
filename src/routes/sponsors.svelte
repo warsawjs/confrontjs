@@ -82,7 +82,7 @@ console.log(Sponsor)
 </svelte:head>
 
 <div class="sponsors-page">
-    <Banner image="/promo/IMG_2978.png">
+    <Banner image="/promo/sponsors2600x1300crop.jpg">
         <p slot="description">11 December 2021 in Warsaw, Poland</p>
         <h1 slot="header">ConfrontJS 2021 Sponsors</h1>
     </Banner>
