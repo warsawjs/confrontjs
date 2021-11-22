@@ -8,7 +8,7 @@
     <h4>1. Definicje</h4>
     <p>Na potrzeby Regulaminu poniższym pojęciom przypisuje się następujące znaczenie:</p>
     <ul>
-      <li>Organizator - WarsawJS sp. z o.o. z siedzibą w Warszawie przy ul.Wał Miedzeszyński 420/23, 03-994 Warszawa; NIP: 9522185629, REGON: 0000745340, adres e-mail: <a href="mailto:contact@warsawjs.com">contact@warsawjs.com</a></li>
+      <li>Organizator - WarsawJS sp. z o.o. z siedzibą w Warszawie przy ul.Wał Miedzeszyński 420/23, 03-994 Warszawa; NIP: 9522185629, REGON: 381052875, adres e-mail: <a href="mailto:contact@warsawjs.com">contact@warsawjs.com</a></li>
       <li>Konferencja - konferencja dotycząca zagadnień istotnych dla branży IT, organizowana przez Organizatora, składająca się z przewidzianych w Agendzie prelekcji;
       </li>
       <li>Serwis - strona internetowa dostępna pod adresem <a href="https://confrontjs.com/">https://confrontjs.com/</a>, na której znajdują się wszelkie informacje organizacyjne dotyczące Konferencji
@@ -24,12 +24,12 @@
       <li>Użytkownik - osoba fizyczna korzystająca z Serwisu.</li>
       <li>Zgłaszający - osoba fizyczna, osoba prawna lub jednostka organizacyjna nieposiadająca osobowości prawnej, której przepisy przyznają zdolność prawną, dokonująca w imieniu własnym lub na rzecz osoby trzeciej Zgłoszenia;</li>
       <li>Zgłoszenie - wypełnienie formularza internetowego dostępnego w ramach Platformy, za pośrednictwem którego możliwe jest podanie danych niezbędnych do udziału w Konferencji i uiszczenie opłaty za udział w Konferencji.</li>
-      <li>Bilet - opłata za udział w Konferencji; dostępny w różnych opcjach opisanych w Serwisie; podlega zniżkom według uznania Organizatora.</li>
+      <li>Bilet - opłata za udział w Konferencji dostępny w różnych opcjach i według cenniku opisanych w pkt 5</li>
     </ul>
   </article>
 
   <article>
-    <h4>Postanowienia ogólne:</h4>
+    <h4>2. Postanowienia ogólne:</h4>
     <ol>
       <li> Niniejszy Regulamin określa warunki korzystania z Serwisu, a także szczegółowe prawa i
         obowiązki Organizatora, Uczestników, Użytkowników oraz Prelegentów.
@@ -75,7 +75,7 @@
   </article>
 
   <article>
-    <h4>Udział w Konferencji w charakterze Prelegenta</h4>
+    <h4>4. Udział w Konferencji w charakterze Prelegenta</h4>
     <ol>
       <li>Prelegent bierze udział w Konferencji jako Uczestnik, nie ponosi żadnych opłat za uczestnictwo</li>
       <li>Prelegent wygłasza prelekcję podczas Konferencji według harmonogramu określanego przez Agendę</li>
@@ -85,7 +85,26 @@
   </article>
 
   <article>
-    <h4>5. Zmiany w programie Konferencji</h4>
+    <h4>5. Bilety i Cennik.</h4>
+    <ol>
+      <li> Bilety dostępne są w następujących opcjach
+        <ul>
+          <li>Pre Early Bird - 190 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji. Cena promocyjna ograniczona czasowo. Informacja o wygaśnięciu promocji dostępna w Serwisie w trakcie jej trwania.</li>
+          <li>Pre Early Bird For 2 - 300 zł. Bilet dla dwóch Uczestników upoważnia do stacjonarnego udziału w Konferencji. Cena promocyjna ograniczona czasowo. Informacja o wygaśnięciu promocji dostępna w Serwisie w trakcie jej trwania.</li>
+          <li>Early Bird - 250 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji. Cena promocyjna ograniczona czasowo. Informacja o wygaśnięciu promocji dostępna w Serwisie w trakcie jej trwania.</li>
+          <li>Early Bird for 2 - 400 zł. Bilet dla dwóch Uczestników upoważnia do stacjonarnego udziału w Konferencji. Cena promocyjna ograniczona czasowo. Informacja o wygaśnięciu promocji dostępna w Serwisie w trakcie jej trwania.</li>
+          <li>Regular - 500 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji. Oferta ważna do wyczerpania zapasów.</li>
+          <li>VIP Premium - 1500 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji, obejmuje zaproszenie do udziału w kolacji z Prelegentami organizowanej w dniu 10 grudnia 2021 w miejscu ustalonym przez Organizatora oraz zawiera pakiet upominków od sponsorów.</li>
+        </ul>
+      </li>
+      <li>Bilety podlegają zniżkom według uznania Organizatora. Zakup zniżkowego biletu odbywa się za pośrednictwem spersonalizowanego linku, za pomocą którego jedynie można skorzystać ze zniżki.</li>
+      <li>Bilety są imienne. W momencie zakupu biletu następuje jednocześnie rejestracja Uczestnika do udziału w Konferencji.</li>
+      <li>Po zakupie biletu nie ma możliwości przekazania go osobie trzeciej.</li>
+    </ol>
+  </article>
+
+  <article>
+    <h4>6. Zmiany w programie Konferencji</h4>
     <ol>
       <li>Organizator zastrzega sobie prawo do zmiany programu Konferencji tj. m.in. osób prelegentów, tematów i godzin prelekcji jak również terminu, miejsca i sposobu przeprowadzenia Konferencji</li>
       <li>Organizator zastrzega sobie prawo do odstąpienia od Umowy (odwołania Konferencji) w terminie do dnia zakończenia Konferencji.</li>
@@ -95,9 +114,9 @@
   </article>
 
   <article>
-    <h4>6. Dane osobowe</h4>
+    <h4>7. Dane osobowe</h4>
     <ol>
-      <li> Administratorem danych osobowych zebranych w związku z Konferencją jest WarsawJS sp. z o.o. z siedzibą w Warszawie przy ul.Wał Miedzeszyński 420/23, 03-994 Warszawa; NIP: 9522185629, REGON: 0000745340</li>
+      <li> Administratorem danych osobowych zebranych w związku z Konferencją jest WarsawJS sp. z o.o. z siedzibą w Warszawie przy ul.Wał Miedzeszyński 420/23, 03-994 Warszawa; NIP: 9522185629, REGON: 381052875</li>
       <li>Wszelkie informacje dotyczące przetwarzania danych osobowych przez Organizatora w związku z Konferencją zostały wskazane w Polityce Prywatności dostępnej w Serwisie oraz
         Platformie sprzedażowej.
         </li>
@@ -119,17 +138,27 @@
   </article>
 
   <article>
-    <h4>7. Rezygnacja z uczestnictwa</h4>
+    <h4>8. Rezygnacja z uczestnictwa</h4>
     <ol>
       <li>W zakresie dopuszczalnym przez prawo, możliwość jednostronnego odstąpienia, wypowiedzenia czy innego zakończenia Umowy przez Zgłaszającego niebędącego Uczestnikiem, jest wyłączona. Organizator podchodzi jednak do każdej sytuacji indywidualnie i w przypadku zdarzeń losowych prosi o bezpośredni kontakt pod adresem: <a href="contact@warsawjs.com">contact@warsawjs.com</a>
       </li>
       <li>Kupującym Bilet nie przysługuje prawo do odstąpienia od umowy zawartej z Organizatorem, zgodnie z art. 38 pkt 12) ustawy z 30 maja 2014 r. o prawach konsumenta (Dz. U. z 2014, poz. 827), stanowiącym, że prawo do odstąpienia od umów zawartych na odległość nie przysługuje konsumentowi m.in. w odniesieniu do umów o świadczenie usług związanych z wypoczynkiem, wydarzeniami rozrywkowymi, sportowymi lub kulturalnymi, jeżeli w umowie oznaczono dzień lub okres świadczenia usługi.</li>
-
     </ol>
   </article>
 
   <article>
-    <h4>8. Postanowienia końcowe</h4>
+    <h4>9. Reklamacje</h4>
+    <ol>
+      <li>Kupujący może złożyć reklamację za pośrednictwem poczty elektronicznej na adres mail: contact@warsawjs.com, a także pocztą na adres siedziby Organizatora (WarsawJS, ul. Wał Miedzeszyński 420/23, 03-994 Warszawa).</li>
+      <li>Reklamacje mogą być składane nie później, niż 14 dnia po zakończeniu Konferencji. W przypadku złożenia reklamacji pocztą o zachowaniu terminu decyduje data stempla pocztowego.</li>
+      <li>Reklamacja powinna zawierać co najmniej następujące dane: a) wskazanie konferencji, której reklamacja dotyczy; b) oznaczenie Kupującego – imię i nazwisko/nazwę, adres do korespondencji, adres e-mail, telefon kontaktowy, c) przedmiot reklamacji, d) wskazanie okoliczności faktycznych uzasadniających reklamację.</li>
+      <li>Organizator rozpatruje reklamacje w ciągu 14 dni od momentu jej otrzymania.</li>
+      <li>Organizator może wydłużyć termin wskazany w pkt. 4, nie dotyczy to reklamacji składanych przez konsumentów. Organizator poinformuje o tym składającego informację, wskazując powody wydłużenia terminu. Jednocześnie Organizator wyznacza nowy termin na rozpatrzenie reklamacji.</li>
+    </ol>
+  </article>
+
+  <article>
+    <h4>10. Postanowienia końcowe</h4>
     <p>W sprawach nieuregulowanych Regulaminem stosuje się odpowiednio przepisy prawa polskiego. Organizator zastrzega sobie prawo do wprowadzenia zmian w Regulaminie.</p>
   </article>
 
