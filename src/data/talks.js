@@ -1,5 +1,13 @@
 module.exports = [
   {
+    title: "Singularity 2027",
+    abstract: ``,
+    tech: ["AI", "Virtual Reality", "Games"],
+    speaker: require("./speakers/lara-sing"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
     title: "Design Systems: The journey from chaos to consistency",
     abstract: `Design systems are everywhere. At some point, we’ve all used bootstrap, material, or shoelace.  But we end up tweaking and changing and struggling with out of the box solutions, until we begin to fantasize about creating our own design system. 
     But what does that process look like? What happens behind the scenes? Do we get enough value to justify the cost? 
