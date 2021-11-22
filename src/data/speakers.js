@@ -11,4 +11,5 @@ module.exports = [
   require("./speakers/evyatar-alush"),
   require("./speakers/amit-sheen"),
   require("./speakers/tomasz-stachewicz"),
+  require("./speakers/lara-sing"),
 ];
