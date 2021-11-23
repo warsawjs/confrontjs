@@ -75,6 +75,12 @@ console.log(Sponsor)
         margin: 30px;
         vertical-align: middle;
     }
+
+    @media (max-width: 800px) {
+        .silver-heading {
+            font-size: 30px;
+        }
+    }
 </style>
 
 <svelte:head>
@@ -93,7 +99,7 @@ console.log(Sponsor)
         <h2 slot="header">Thanks to Our Sponsors</h2>
 
         <p slot="body">
-            These organizations have been instrumental in shaping ConFrontJS so far!<br/>
+            These organizations have been instrumental in shaping ConfrontJS so far!<br/>
             Would you like to add your name to the list?<br/>
             Check out our sponsorship opportunities.
         </p>
