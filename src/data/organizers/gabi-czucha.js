@@ -2,7 +2,7 @@ module.exports = {
   name: "Gabi Czucha",
   position: "ConfrontJS Coordinator",
   bio: {
-    en: `Creative and open minded chaos manager. "Sky is the limit" they say, but she checked it out during flight attendants career and truly believe that the limit is somewhere further.`,
+    en: `Creative and open minded chaos manager. "Sky is the limit" they say, but she checked it out during flight attendant career and truly believes that the limit is somewhere further.`,
     pl: "",
   },
   contact: {
