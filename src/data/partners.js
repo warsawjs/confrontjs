@@ -15,4 +15,5 @@ module.exports = [
   require("./partners/gamedevjs"),
   require("./partners/full-stack-geek"),
   require("./partners/kernelgonnapanic.js"),
+  require("./partners/sarvendev.js"),
 ];
