@@ -12,7 +12,8 @@
      total: 50,
      quantity: 0,
      description: 'SOLD OUT', 
-     validity: ''
+     validity: '',
+     disabled: 'disabled',
     },
     {
      id:'price_1JjTrcEMmVuoJdChRL389PMV',
@@ -21,7 +22,8 @@
      total: 50,
      quantity: 0,
      description: 'SOLD OUT', 
-     validity: ''
+     validity: '',
+     disabled: 'disabled',
     },
     {
      id:'price_1JjTsaEMmVuoJdChmLAOI4eh',
@@ -30,7 +32,8 @@
      total: 100,
      quantity: 0,
      description: 'SOLD OUT', 
-     validity: ''
+     validity: '',
+     disabled: 'disabled',
     },    
     {
      id:'price_1JjTt3EMmVuoJdChn5xV3mbm',
@@ -39,7 +42,8 @@
      total: 100,
      quantity: 0,
      description: 'SOLD OUT', 
-     validity: ''
+     validity: '',
+     disabled: 'disabled',
     },    
     {
      id:'price_1JjTtwEMmVuoJdChFABlyiY9',
@@ -48,7 +52,8 @@
      total: 200,
      quantity: 0,
      description: 'Stationary access to the event', 
-     validity: 'Offer valid while stocks last'
+     validity: 'Offer valid while stocks last',
+     disabled: 'disabled',
     },    
     {
      id:'price_1JjTuREMmVuoJdChl1VugtKn',
@@ -57,7 +62,8 @@
      total: 50,
      quantity: 0,
      description: 'Stationary access, Welcome dinner with the speakers on December 10, Gift Pack', 
-     validity: 'Offer valid while stocks last'
+     validity: 'Offer valid while stocks last',
+     disabled: 'disabled',
     }
   ]
 
@@ -125,7 +131,7 @@
 <section class="ticket-section">
   <h1>Tickets</h1>
   <div class="card-display">
-    {#each tickets as  ticket}
+    {#each tickets as ticket}
     <TicketCard 
     title={ticket.title} 
     price={ticket.price} 
@@ -133,7 +139,7 @@
     total={ticket.total}
     description={ticket.description}
     validity={ticket.validity}
-    disabled={ticket.title === 'Pre early bird' || ticket.title === 'Pre early bird for 2' || ticket.title === 'Early bird' || ticket.title === 'Early bird for 2'}
+    disabled={ticket.disabled}
     on:decrement={decrement}
     on:increment={increment}
     on:add-to-cart={addToCart}

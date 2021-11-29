@@ -23,7 +23,7 @@
         class:button-mix={variant === 'secondary'}
         href={href}
     >
-    <slot />
+        <slot />
     </a>
 
 </div>
