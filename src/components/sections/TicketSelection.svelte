@@ -51,8 +51,8 @@
      price: 500,
      total: 200,
      quantity: 0,
-     description: 'Stationary access to the event', 
-     validity: 'Offer valid while stocks last',
+     description: 'ON HOLD', 
+     validity: 'Until further notice',
      disabled: 'disabled',
     },    
     {
@@ -61,8 +61,8 @@
      price: 1500,
      total: 50,
      quantity: 0,
-     description: 'Stationary access, Welcome dinner with the speakers on December 10, Gift Pack', 
-     validity: 'Offer valid while stocks last',
+     description: 'ON HOLD', 
+     validity: 'Until further notice',
      disabled: 'disabled',
     }
   ]
