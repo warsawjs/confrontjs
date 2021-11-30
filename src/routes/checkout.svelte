@@ -140,7 +140,7 @@
 </style>
 
 <svelte:head>
-  <title>Checkout • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
+  <title>Checkout • ConfrontJS 2022 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <section class="container checkout-wrapper" class:center={!$ticketStore.length}>

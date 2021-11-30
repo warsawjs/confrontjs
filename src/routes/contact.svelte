@@ -10,7 +10,7 @@
 </style>
 
 <svelte:head>
-    <title>Contact • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
+    <title>Contact • ConfrontJS 2022 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="contact-page">

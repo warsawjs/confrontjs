@@ -29,8 +29,8 @@
 </svelte:head>
 
 <Banner image="/venue/kinoteka-banner1.png">
-    <p slot="description">11 December 2021 in Warsaw, Poland</p>
-    <h1 slot="header">ConfrontJS 2021 Venue</h1>
+    <p slot="description">26 March 2022 in Warsaw, Poland</p>
+    <h1 slot="header">ConfrontJS 2022 Venue</h1>
 </Banner>
 
 <div class="venue-page">

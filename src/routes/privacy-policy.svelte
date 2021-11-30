@@ -10,7 +10,7 @@
 </style>
 
 <svelte:head>
-    <title>Privacy Policy • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
+    <title>Privacy Policy • ConfrontJS 2022 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="privacy-policy-page">

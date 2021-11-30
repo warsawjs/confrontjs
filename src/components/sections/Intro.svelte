@@ -34,6 +34,6 @@
 
     <p class="headline">Front-end Conference</p>
 
-    <p class="subline">11 December 2021 in Warsaw, Poland</p>
+    <p class="subline">26 March 2022 in Warsaw, Poland</p>
 
 </div>

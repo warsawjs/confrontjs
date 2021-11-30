@@ -84,13 +84,13 @@ console.log(Sponsor)
 </style>
 
 <svelte:head>
-    <title>Sponsors • ConfrontJS 2021 • Front-end C onference</title>
+    <title>Sponsors • ConfrontJS 2022 • Front-end Conference</title>
 </svelte:head>
 
 <div class="sponsors-page">
     <Banner image="/promo/sponsors2600x1300crop.jpg">
-        <p slot="description">11 December 2021 in Warsaw, Poland</p>
-        <h1 slot="header">ConfrontJS 2021 Sponsors</h1>
+        <p slot="description">26 March 2022 in Warsaw, Poland</p>
+        <h1 slot="header">ConfrontJS 2022 Sponsors</h1>
     </Banner>
 
     <WaveType6/>
