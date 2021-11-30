@@ -11,16 +11,16 @@
     import WaveType2 from '../components/waves/WaveType2.svelte';
     import WaveType3 from '../components/waves/WaveType3.svelte';
     import WaveType4 from '../components/waves/WaveType4.svelte';
+    import Modal from 'svelte-simple-modal';
+    import PostponeInfo from "../components/shared/PostponeInfo.svelte";
 </script>
-
-<style>
-</style>
 
 <svelte:head>
     <title>ConfrontJS 2022 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="index-page">
+    <Modal show={PostponeInfo}/>
     <Intro/>
     <CallToAction variant="primary" href="/buy-a-ticket">BUY TICKETS</CallToAction>
     <CallToAction variant="secondary" href="https://drive.google.com/file/d/1PS2QVehOaypftOjTbACoTNAMx5cxa97V/view">OFFER FOR SPONSORS</CallToAction>
