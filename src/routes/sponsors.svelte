@@ -8,6 +8,14 @@
 
     import Sponsors from '../data/sponsors';
     import Partners from '../data/partners';
+    import Modal from 'svelte-simple-modal';
+    import PostponeInfo from "../components/shared/PostponeInfo.svelte";
+    import {initialVisit} from '../components/stores/initial-visit-tracker'
+    import {onMount} from 'svelte';
+
+    onMount(() => {
+        initialVisit.set(false)
+    })
 
     function sponsorType(type) {
         return Sponsors.filter((sponsor) => {
@@ -88,6 +96,9 @@ console.log(Sponsor)
 </svelte:head>
 
 <div class="sponsors-page">
+    {#if $initialVisit} 
+    <Modal show={PostponeInfo}/>
+    {/if}
     <Banner image="/promo/sponsors2600x1300crop.jpg">
         <p slot="description">26 March 2022 in Warsaw, Poland</p>
         <h1 slot="header">ConfrontJS 2022 Sponsors</h1>
