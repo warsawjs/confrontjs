@@ -51,8 +51,8 @@
      price: 500,
      total: 200,
      quantity: 0,
-     description: 'ON HOLD', 
-     validity: 'Until further notice',
+     description: 'Stationary access to the event', 
+     validity: 'Offer valid while stocks last',
      disabled: 'disabled',
     },    
     {
@@ -61,8 +61,8 @@
      price: 1500,
      total: 50,
      quantity: 0,
-     description: 'ON HOLD', 
-     validity: 'Until further notice',
+     description: 'Stationary access, Welcome dinner with the speakers on December 10, Gift Pack', 
+     validity: 'Offer valid while stocks last',
      disabled: 'disabled',
     }
   ]
@@ -139,7 +139,7 @@
     total={ticket.total}
     description={ticket.description}
     validity={ticket.validity}
-    disabled={ticket.disabled}
+    disabled={ticket.title === 'Pre early bird' || ticket.title === 'Pre early bird for 2' || ticket.title === 'Early bird' || ticket.title === 'Early bird for 2'}
     on:decrement={decrement}
     on:increment={increment}
     on:add-to-cart={addToCart}
