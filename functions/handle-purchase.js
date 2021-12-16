@@ -202,7 +202,7 @@ exports.handler = async ({ body, headers }) => {
             <tbody>
               <tr>
                 <td style="padding:10px 0px 0px 0px; line-height:16px; text-align:inherit;" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family: inherit; text-align: center"><span style="color: #000; font-size: 20px">ConfrontJS 2021</span></div>
-        <div style="font-family: inherit; text-align: center"><span style="color: #000; font-size: 16px">11 December 2021 in Warsaw, Poland</span></div>
+        <div style="font-family: inherit; text-align: center"><span style="color: #000; font-size: 16px">26 March 2022 in Warsaw, Poland</span></div>
         <div></div></div></td>
               </tr>
             </tbody>
