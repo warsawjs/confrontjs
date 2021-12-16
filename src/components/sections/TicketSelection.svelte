@@ -129,7 +129,7 @@
 </style>
 
 <section class="ticket-section">
-  <h1>Ticket sales on hold!</h1>
+  <h1>Tickets</h1>
   <div class="card-display">
     {#each tickets as ticket}
     <TicketCard 
