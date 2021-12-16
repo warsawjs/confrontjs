@@ -1,8 +1,8 @@
 <section class="container">
   <h2>Terms and Conditions</h2>
-  <h3>Regulamin ConfrontJS 11 Grudnia 2021 </h3>
+  <h3>Regulamin ConfrontJS 26 Marca 2022 </h3>
 
-  <p>Niniejszy regulamin określa warunki udziału w konferencji ConfrontJS w dniu 11 grudnia 2021 roku, która odbywa się stacjonarnie w Kinotece Pałacu Kultury i Nauki w Warszawie. Organizatorem konferencji jest WarsawJS sp. z o.o. z siedzibą w Warszawie.</p>
+  <p>Niniejszy regulamin określa warunki udziału w konferencji ConfrontJS w dniu 26 marca 2022 roku, która odbywa się stacjonarnie w Kinotece Pałacu Kultury i Nauki w Warszawie. Organizatorem konferencji jest WarsawJS sp. z o.o. z siedzibą w Warszawie.</p>
 
   <article>
     <h4>1. Definicje</h4>
@@ -94,7 +94,7 @@
           <li>Early Bird - 250 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji. Cena promocyjna ograniczona czasowo. Informacja o wygaśnięciu promocji dostępna w Serwisie w trakcie jej trwania.</li>
           <li>Early Bird for 2 - 400 zł. Bilet dla dwóch Uczestników upoważnia do stacjonarnego udziału w Konferencji. Cena promocyjna ograniczona czasowo. Informacja o wygaśnięciu promocji dostępna w Serwisie w trakcie jej trwania.</li>
           <li>Regular - 500 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji. Oferta ważna do wyczerpania zapasów.</li>
-          <li>VIP Premium - 1500 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji, obejmuje zaproszenie do udziału w kolacji z Prelegentami organizowanej w dniu 10 grudnia 2021 w miejscu ustalonym przez Organizatora oraz zawiera pakiet upominków od sponsorów.</li>
+          <li>VIP Premium - 1500 zł. Bilet dla jednego Uczestnika upoważnia do stacjonarnego udziału w Konferencji, obejmuje zaproszenie do udziału w kolacji z Prelegentami organizowanej w dniu 25 marca 2022 w miejscu ustalonym przez Organizatora oraz zawiera pakiet upominków od sponsorów.</li>
         </ul>
       </li>
       <li>Bilety podlegają zniżkom według uznania Organizatora. Zakup zniżkowego biletu odbywa się za pośrednictwem spersonalizowanego linku, za pomocą którego jedynie można skorzystać ze zniżki.</li>
