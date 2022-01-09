@@ -26,9 +26,6 @@
 </svelte:head>
 
 <div class="index-page">
-    {#if $initialVisit} 
-        <Modal show={PostponeInfo}/>
-    {/if}
     <Intro/>
     <CallToAction variant="primary" href="/buy-a-ticket">BUY TICKETS</CallToAction>
     <CallToAction variant="secondary" href="https://drive.google.com/file/d/1PS2QVehOaypftOjTbACoTNAMx5cxa97V/view">OFFER FOR SPONSORS</CallToAction>

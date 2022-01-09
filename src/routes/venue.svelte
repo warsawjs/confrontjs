@@ -8,15 +8,6 @@
     import WaveType4 from '../components/waves/WaveType4.svelte';
     import WaveType7 from '../components/waves/WaveType7.svelte';
     import WaveType8 from '../components/waves/WaveType8.svelte';
-    import Modal from 'svelte-simple-modal';
-    import PostponeInfo from "../components/shared/PostponeInfo.svelte";
-    import {initialVisit} from '../components/stores/initial-visit-tracker'
-    import {onMount} from 'svelte';
-
-    onMount(() => {
-        initialVisit.set(false)
-    })
-
     export let segment = '';
 </script>
 
@@ -36,9 +27,6 @@
     <title>Venue • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
-{#if $initialVisit} 
-<Modal show={PostponeInfo}/>
-{/if}
 <Banner image="/venue/kinoteka-banner1.png">
     <p slot="description">26 March 2022 in Warsaw, Poland</p>
     <h1 slot="header">ConfrontJS 2022 Venue</h1>
