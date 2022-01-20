@@ -1,7 +1,7 @@
 module.exports = {
   name: "Elad Shechter",
   position: "CSS/HTML Architect",
-  company: "eladsc.dev",
+  company: "Appwrite",
   country: "Israel",
   bio: {
     en: `Elad Shechter is a Web Developer specializing in CSS & HTML design and architecture. Besides this, he's a Writer of various globally known CSS articles and a CSS speaker.`,
