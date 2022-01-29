@@ -18,15 +18,13 @@ exports.handler = async ({ body, headers }) => {
       customer_name,
       id,
       lines: {
-        price: {
-          data: [
-            {
-              price: {
-                metadata: { name: ticket_type },
-              },
+        data: [
+          {
+            price: {
+              metadata: { name: ticket_type },
             },
-          ],
-        },
+          },
+        ],
       },
     } = stripeEvent.data.object;
 
