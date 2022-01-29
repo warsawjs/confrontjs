@@ -204,25 +204,20 @@ exports.handler = async ({ body, headers }) => {
                 <td style="padding:30px 0px 40px 0px; line-height:22px; text-align:inherit;" height="100%" valign="top" bgcolor="" role="module-content"><div><div style="font-family: inherit; text-align: center"><span style="color: #000; font-size: 24px"><strong>THANK YOU FOR YOUR PURCHASE!</strong></span></div>
         <div style="font-family: inherit; text-align: center"><br></div>
         <div style="font-family: inherit; text-align: center"><span style="color: #000; font-size: 12px"><strong>Sales Receipt</strong></span></div>
-        <div style="font-family: inherit; text-align: center"><span style="color: #000; font-size: 12px">${dateString}</span></div><div></div></div></td>
+        <div style="font-family: inherit; text-align: center"><span style="color: #000; font-size: 12px">${"dataaa"}</span></div><div></div></div></td>
               </tr>
             </tbody>
           </table><table class="module" role="module" data-type="text" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="8fd711e6-aecf-4663-bf53-6607f08b57e9.1" data-mc-module-version="2019-10-22">
             <tbody>
               <tr>
                 <td style="padding:0px 40px 40px 40px; line-height:22px; text-align:inherit;" height="100%" valign="top" bgcolor="" role="module-content"><div>
-        <div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Issued For: </strong></span><span style="color: #000; font-size: 12px">${customerName}</span></div>
-        <div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Email: </strong></span><span style="color: #000; font-size: 12px">${emailTo}</span></div>
-        <div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Ticket ID: </strong></span><span style="color: #000; font-size: 12px">${id}</span></div><div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Total Price: </strong></span><span style="color: #000; font-size: 12px">${totalAmount} pln</span></div>
+        <div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Issued For: </strong></span><span style="color: #000; font-size: 12px">${customer_name}</span></div>
+        <div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Email: </strong></span><span style="color: #000; font-size: 12px">${customer_email}</span></div>
+        <div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Ticket ID: </strong></span><span style="color: #000; font-size: 12px">ID</span></div><div style="font-family: inherit; text-align: inherit"><span style="color: #000; font-size: 12px"><strong>Total Price: </strong></span><span style="color: #000; font-size: 12px">${"totalAmount"} pln</span></div>
         <div style="font-family: inherit; text-align: inherit; height:20px;"><span style="color: #000; font-size: 12px"></div>
         <div style="font-family: inherit; text-align: center; line-height: 30px">
         <ul style="list-style: none;">
-        ${quantities
-          .map(
-            (q, i) =>
-              `<li style="color: #000; font-size: 20px; font-weight: bold">${q} - ${products[i]}</li>`
-          )
-          .join("")}
+        tutaj dane o bilecie 
         </ul>
         </div>
         <div></div></div></td>
