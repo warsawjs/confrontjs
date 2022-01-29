@@ -21,10 +21,10 @@ exports.handler = async ({ body, headers }) => {
 
     if (customer_email === "jaseveen@gmail.com") {
       const msg = {
-        to: emailTo,
+        to: customer_email,
         from: process.env.FROM_EMAIL_ADDRESS,
         subject: `New purchase from ConfrontJS`,
-        html: `<h1>hula!</h1>`,
+        html: `<h1>hula! ${customer_name}</h1>`,
       };
       await sgMail.send(msg);
     }
