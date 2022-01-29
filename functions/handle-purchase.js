@@ -12,20 +12,21 @@ exports.handler = async ({ body, headers }) => {
       process.env.STRIPE_WEBHOOK_SECRET
     );
 
+    const { customer_email, customer_name, created } = stripeEvent.data.object;
+
     console.log({
-      stripeEvent,
       data: stripeEvent.data,
-      obj: stripeEvent.data.object,
+      date: new Date(created),
     });
 
-    if (stripeEvent.type === "charge.succeeded") {
+    if (customer_email === "jaseveen@gmail.com") {
       const msg = {
         to: emailTo,
         from: process.env.FROM_EMAIL_ADDRESS,
         subject: `New purchase from ConfrontJS`,
-        html: ``,
+        html: `<h1>hula!</h1>`,
       };
-      // await sgMail.send(msg);
+      await sgMail.send(msg);
     }
 
     return {
