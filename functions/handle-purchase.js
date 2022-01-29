@@ -19,7 +19,13 @@ exports.handler = async ({ body, headers }) => {
       id,
       lines: {
         price: {
-          metadata: { name: ticket_type },
+          data: [
+            {
+              price: {
+                metadata: { name: ticket_type },
+              },
+            },
+          ],
         },
       },
     } = stripeEvent.data.object;
