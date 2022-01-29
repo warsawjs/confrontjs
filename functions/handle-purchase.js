@@ -11,13 +11,12 @@ exports.handler = async ({ body, headers }) => {
       headers["stripe-signature"],
       process.env.STRIPE_WEBHOOK_SECRET
     );
-    console.log(
-      { body },
-      { headers: headers["stripe-signature"] },
-      { stripe_webhook: process.env.STRIPE_WEBHOOK_SECRET },
-      { stripe }
-    );
-    console.log({ stripeEvent });
+
+    console.log({
+      stripeEvent,
+      data: stripeEvent.data,
+      obj: stripeEvent.data.object,
+    });
 
     if (stripeEvent.type === "charge.succeeded") {
       const msg = {
