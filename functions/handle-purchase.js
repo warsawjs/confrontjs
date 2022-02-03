@@ -234,10 +234,7 @@ exports.handler = async ({ body, headers }) => {
         } pln</span></div>
         <div style="font-family: inherit; text-align: inherit; height:20px;"><span style="color: #000; font-size: 12px"></div>
         <div style="font-family: inherit; text-align: center; line-height: 30px">
-        <ul style="list-style: none;">
-        tutaj dane o bilecie : typ to ${ticket_type}
-        </ul>
-        <img src="https://2021confrontjs.s3.eu-central-1.amazonaws.com/Confrontjs+bilet+graficzny.svg" />
+        <img src="https://2021confrontjs.s3.eu-central-1.amazonaws.com/Confrontjs+bilet+graficzny.png" />
         </div>
         <div></div></div></td>
               </tr>
