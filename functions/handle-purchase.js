@@ -237,7 +237,7 @@ exports.handler = async ({ body, headers }) => {
           <tbody>
             <tr>
               <td>
-                <img src="https://2021confrontjs.s3.eu-central-1.amazonaws.com/Confrontjs+bilet+graficzny.png" />
+                <img src="https://2021confrontjs.s3.eu-central-1.amazonaws.com/Confrontjs+bilet+graficzny.png" style="height: auto; width: 360px;"/>
               </td>
             </tr>
           </tbody>
