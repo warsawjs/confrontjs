@@ -22,7 +22,7 @@
             return (sponsor.type === type);
         });
     }
-console.log(Sponsor)
+
     const GoldSponsors = sponsorType('Gold');
     const VenueSponsors = sponsorType('Venue');
     const SilverSponsors = sponsorType('Silver')

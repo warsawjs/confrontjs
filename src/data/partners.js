@@ -16,4 +16,5 @@ module.exports = [
   require("./partners/full-stack-geek"),
   require("./partners/kernelgonnapanic.js"),
   require("./partners/sarvendev.js"),
+  require("./partners/jaknauczycsieprogramowania.js"),
 ];
