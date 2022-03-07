@@ -23,6 +23,7 @@
         });
     }
 
+    const DiamondSponsors = sponsorType('Diamond');
     const GoldSponsors = sponsorType('Gold');
     const VenueSponsors = sponsorType('Venue');
     const SilverSponsors = sponsorType('Silver')
@@ -118,6 +119,21 @@
 
     <div class="content">
         <div class="sponsors-container">
+
+            {#if DiamondSponsors.length > 0 }
+
+                <div class="gold-sponsors sponsors-section">
+                    <ul class="list-unstyled">
+                        {#each DiamondSponsors as sponsor, i}
+                            <li class="sponsor-card">
+                                <Sponsor sponsor="{sponsor}"/>
+                                <h2 class="sponsor-type">Diamond Sponsor</h2>
+                            </li>
+                        {/each}
+                    </ul>
+                </div>
+
+            {/if}
 
             {#if GoldSponsors.length > 0 }
 

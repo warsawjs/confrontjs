@@ -7,7 +7,7 @@
 </script>
 
 <style>
-    .gold-sponsor img {
+    /* .gold-sponsor img {
         width: 500px;
         height: 300px;
     }
@@ -17,7 +17,7 @@
         .gold-sponsor img {
             width: 100%;
         }
-    }
+    } */
 </style>
 
 <a

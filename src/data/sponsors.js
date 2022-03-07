@@ -1,6 +1,8 @@
 module.exports = [
+  // Diamond Sponsor
+  require("./sponsors/monday"),
   // Gold Sponsor
-  // require('./sponsors/grupa-pracuj'),
+  require("./sponsors/allegro"),
   // Silver Sponsor
   require("./sponsors/10clouds"),
   require("./sponsors/callstack"),
