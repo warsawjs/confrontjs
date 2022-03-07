@@ -4,7 +4,6 @@ module.exports = [
   // Gold Sponsor
   require("./sponsors/allegro"),
   // Silver Sponsor
-  require("./sponsors/10clouds"),
   require("./sponsors/callstack"),
   require("./sponsors/cksource"),
   require("./sponsors/fresha"),
