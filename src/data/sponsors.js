@@ -12,6 +12,7 @@ module.exports = [
   require("./sponsors/prisma"),
   require("./sponsors/sumo-logic"),
   require("./sponsors/Xfaang"),
+  require("./sponsors/unitygroup"),
   // Bronze Sponsor
   // Venue Sponsor
 ];
