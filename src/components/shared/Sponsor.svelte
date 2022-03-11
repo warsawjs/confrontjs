@@ -25,6 +25,7 @@
     href={ sponsor.url }
     title={ sponsor.name }
     rel="noopener"
+    target="_blank"
 >
     <img
         src={ sponsor.logo_url }
