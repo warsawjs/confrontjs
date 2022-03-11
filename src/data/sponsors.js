@@ -13,6 +13,7 @@ module.exports = [
   require("./sponsors/sumo-logic"),
   require("./sponsors/Xfaang"),
   require("./sponsors/unitygroup"),
+  require("./sponsors/tidio"),
   // Bronze Sponsor
   // Venue Sponsor
 ];
