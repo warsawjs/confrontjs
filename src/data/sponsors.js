@@ -14,6 +14,7 @@ module.exports = [
   require("./sponsors/Xfaang"),
   require("./sponsors/unitygroup"),
   require("./sponsors/tidio"),
+  require("./sponsors/daftcode"),
   // Bronze Sponsor
   // Venue Sponsor
 ];
