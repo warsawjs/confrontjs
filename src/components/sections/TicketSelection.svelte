@@ -6,6 +6,46 @@
 
   let tickets = [
     {
+     id:'price_1JjTtwEMmVuoJdChFABlyiY9',
+     title: 'Regular',
+     price: 500,
+     total: 200,
+     quantity: 0,
+     description: 'Stationary access to the event', 
+     validity: 'Offer valid while stocks last',
+     disabled: 'disabled',
+    },    
+    {
+     id:'price_1JjTuREMmVuoJdChl1VugtKn',
+     title: 'VIP - Premium',
+     price: 1500,
+     total: 50,
+     quantity: 0,
+     description: 'Stationary access, Welcome dinner with the speakers on December 10, Gift Pack', 
+     validity: 'Offer valid while stocks last',
+     disabled: 'disabled',
+    },
+    {
+     id:'price_1KcWzNEMmVuoJdChHruwHAXZ',
+     title: 'Regular ticket + Workshop',
+     price: 900,
+     total: 20,
+     quantity: 0,
+     description: 'Regular ticket + Workshop with Yonatan Kra on 25th March', 
+     validity: 'Offer valid while stocks last',
+     disabled: 'disabled',
+    }, 
+    {
+     id:'price_1KcX1VEMmVuoJdChjO09lFJN',
+     title: 'Ticket for the Workshop',
+     price: 500,
+     total: 20,
+     quantity: 0,
+     description: 'Workshop with Yonatan Kra on 25th March', 
+     validity: 'Offer valid while stocks last',
+     disabled: 'disabled',
+    }, 
+    {
      id:'price_1JjTr3EMmVuoJdChUSBDkVZ2',
      title: 'Pre early bird',
      price: 190,
@@ -45,26 +85,6 @@
      validity: '',
      disabled: 'disabled',
     },    
-    {
-     id:'price_1JjTtwEMmVuoJdChFABlyiY9',
-     title: 'Regular',
-     price: 500,
-     total: 200,
-     quantity: 0,
-     description: 'Stationary access to the event', 
-     validity: 'Offer valid while stocks last',
-     disabled: 'disabled',
-    },    
-    {
-     id:'price_1JjTuREMmVuoJdChl1VugtKn',
-     title: 'VIP - Premium',
-     price: 1500,
-     total: 50,
-     quantity: 0,
-     description: 'Stationary access, Welcome dinner with the speakers on December 10, Gift Pack', 
-     validity: 'Offer valid while stocks last',
-     disabled: 'disabled',
-    }
   ]
 
   let storeItems = []
