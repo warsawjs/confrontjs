@@ -15,7 +15,7 @@
 </style>
 
 <svelte:head>
-    <title>Workshop • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
+    <title>Workshop • ConfrontJS 2022 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <Banner image="/promo/IMG_2723.png">
@@ -29,30 +29,29 @@
         <h4 class="primary-color mb-0">Workshop Title</h4>
 
         <h1 class="mt-0">
-            Let's Talk About<br/>Your App's Performance
+            Github Actions Workshop
         </h1>
 
         <div class="row">
             <div class="col-md-5 col-sm-12">
                 <p>
-                    A workshop for people who want to improve their skills
-                    in performance optimization. The goal of MasterClass training
-                    is to make another step to be a true master - MasterClass.
-                    The trainer is a person with many years of experience
-                    in programming and teaching. There is no selection - the
-                    principle "first come first served" applies. Learning in
-                    a small circle.
+                    Learn the benefits of automating processes related to code and how to use github actions in order to achieve automation.
                 </p>
+                <a
+                    class="button-mix my-3 d-inline-block"
+                    data-content="Show full agenda"
+                    href="https://s3.eu-central-1.amazonaws.com/www.warsawjs.com/static/confrontjs/ConfrontJS_Yonatan_Kra_Github_Actions_Workshop.pdf"
+                >Show full agenda</a>
             </div>
 
             <div class="offset-md-1 col-md-3 col-sm-12">
                 <h2>Place of training</h2>
 
                 <p>
-                    Engineering Design Center (EDC)
-                    Łukasiewicz Research Network – Institute of Aviation<br/>
-                    Aleja Krakowska 110/114<br/>
-                    02-256 Warsaw, Poland
+                    HubHub<br/>
+                    Al. Jerozolimskie 93<br/>
+                    2nd floor<br/>
+                    Warsaw, Poland
                 </p>
             </div>
 
@@ -60,14 +59,14 @@
                 <h2>Date</h2>
 
                 <p>
-                    06-12-2019<br/>
-                    10:00 - 18:00
+                    25-03-2022<br/>
+                    09:00 - 16:00
                 </p>
 
                 <a
                     class="button-mix my-3 d-inline-block"
                     data-content="Buy ticket"
-                    href="https://evenea.pl/event/confrontjs-2019"
+                    href="https://app.easycart.pl/checkout/confrontjs/confrontjs"
                 >Buy ticket</a>
             </div>
         </div>
@@ -77,16 +76,9 @@
                 <h2>What are you going to learn:</h2>
 
                 <ul>
-                    <li>The internals of the JS engine</li>
-                    <li>What is the Critical Rendering Path in the browser?</li>
-                    <li>What are the main performance bottlenecks in a web app (and how to solve/avoid them)?</li>
-                    <li>How to monitor web applications both front and backend</li>
-                    <li>How to solve performance issues in your app</li>
-                    <li>How to avoid performance issues in your app</li>
-                    <li>Optimization Design Patterns</li>
-                    <li>See examples from performance improvements in production</li>
-                    <li>Understand how your code interacts with memory, CPU, GPU and more</li>
-                    <li>Performance facts that will make you the star of the next party you're going to</li>
+                    <li>using GitHub Actions</li>
+                    <li>writing for production</li>
+                    <li>improving workflow with automation</li>
                 </ul>
 
                 <p>
@@ -105,8 +97,8 @@
                 <ul>
                     <li>One whole day of training</li>
                     <li>Training materials specially prepared for the given training</li>
-                    <li>Tasks that will allow him to do part of the work at home</li>
                     <li>A list of recommended materials for further learning</li>
+                    <li>Work on Github repository</li>
                 </ul>
 
                 <img
