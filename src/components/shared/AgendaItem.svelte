@@ -45,6 +45,7 @@
         overflow-y: auto;
         overflow-x: hidden;
         display: flex;
+        cursor: pointer;
     }
 
     .fix-height {
@@ -180,16 +181,13 @@
             <Modal id="{`${index}-${item.details.speaker.name}`}">
                 <AgendaItemModalContent item="{item}" index="{index}"></AgendaItemModalContent>
             </Modal>
-            <a
-                href="/speakers"
-                tabindex="-1"
-            >
+        
                 <img
                     src="{ item.details.speaker.avatar_url }"
                     class="speaker-avatar"
                     alt="{ item.details.speaker.name }"
                 />
-            </a>
+           
         {/if}
     </div>
 
