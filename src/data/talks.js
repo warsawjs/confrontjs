@@ -18,9 +18,9 @@ module.exports = [
     keynote: false,
   },
   {
-    title: "",
-    abstract: `Nodejs Runtime Performance Tips`,
-    tech: ["JavaScript", "Node.js", "Web Standards"],
+    title: "Optimize Your JavaScript App's Performance",
+    abstract: `Optimization is an unavoidable step in complex applications. The question is: at what stage of the application is it being done and what is the cost. By understanding what’s behind the javascript engine, one can prevent performance issues by writing better javascript and avoiding a big percentage of the optimization phase. In this talk, we will learn about the JS engine, how it works and how it relates to performance. We will then dive into practical examples from real-life applications. Using live coding, we will see how to monitor and fix performance issues. At the end of this talk, you will be able to monitor your app’s performance, tackle performance issues, and note performance bottlenecks while writing or reading the code.`,
+    tech: ["JavaScript", "Performance", "Web Standards"],
     speaker: require("./speakers/yonatan-kra"),
     slides_url: "",
     keynote: false,
