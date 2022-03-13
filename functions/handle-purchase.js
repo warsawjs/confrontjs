@@ -233,7 +233,15 @@ exports.handler = async ({ body, headers }) => {
           amount_paid / 100
         } pln</span></div>
         <div style="font-family: inherit; text-align: inherit; height:20px;"><span style="color: #000; font-size: 12px"></div>
-
+        <table class="module" role="module" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
+          <tbody>
+            <tr>
+              <td>
+                <img src="https://2021confrontjs.s3.eu-central-1.amazonaws.com/Confrontjs+bilet+graficzny.png" style="height: auto; width: 360px;"/>
+              </td>
+            </tr>
+          </tbody>
+        </table>
         <div></div></div></td>
               </tr>
             </tbody>
