@@ -1,14 +1,8 @@
 <script>
-    import Modal,{getModal} from '../shared/Modal.svelte'
     import SpeakerTitle from '../shared/SpeakerTitle.svelte';
-    import AgendaItemModalContent from './AgendaItemModalContent.svelte';
 
     export let item = {};
     export let index = -1;
-
-    function twoDigits(data) {
-        return String(data).padStart(2, '0');
-    }
 
     function getClass() {
         if (item.details.keynote)
@@ -37,13 +31,12 @@
   background: #555;
 }
     .agenda-card {
-        margin: 80px auto;
+        margin: 40px auto;
         width: 100%;
         text-align: left;
         max-height: 350px;
         max-width: 700px;
         overflow-y: auto;
-        overflow-x: hidden;
         display: flex;
     }
 
@@ -165,21 +158,9 @@
         }
     }
 </style>
-
-<div class="agenda-card { item.type } { getClass() }"
-     class:scrollbarOff={!item.type || item.start === "16:00"}
-     class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'}
-     on:click={()=>getModal(`${index}-${item.details.speaker.name}`).open()}>
-
-    <div class="agenda-details mx-2">
-        <span class="iterator">{ twoDigits(index) }.</span>
-
-        <h2>{ item.start }</h2>
-
+<div class="agenda-card { item.type } { getClass() }" class:scrollbarOff={!item.type || item.start === "16:00"} class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'}>
+    <div class="d-none agenda-details mx-2">
         {#if item.type === 'talk' }
-            <Modal id="{`${index}-${item.details.speaker.name}`}">
-                <AgendaItemModalContent item="{item}" index="{index}"></AgendaItemModalContent>
-            </Modal>
             <a
                 href="/speakers"
                 tabindex="-1"
@@ -192,16 +173,15 @@
             </a>
         {/if}
     </div>
-
     <div class="agenda-content col-lg-9 col-xs-12">
         {#if item.type === 'talk' }
-            <h4 class="speaker-type">
+            <h4 class="d-none speaker-type">
                 <SpeakerTitle talk={item.details}/>
             </h4>
-            <h2 class="speaker-name m-0 p-0">
+            <h2 class="d-none speaker-name m-0 p-0">
                 { item.details.speaker.name }
             </h2>
-            <p class="speaker-job-position">
+            <p class="d-none speaker-job-position">
                 { item.details.speaker.position }
 
                 {#if item.details.speaker.company}
@@ -209,15 +189,11 @@
                 {/if}
             </p>
 
-            <div class="tags">
-                {#each item.details.tech as t}
-                    <small class="tag">#{ t }</small>
-                {/each}
-            </div>
-
             <h4 class="talk-title m-0 p-0">
                 { item.details.title }
             </h4>
+
+            <p class="talk-abstract d-sm-block">{ item.details.abstract.trim() }</p>
 
             {#if item.details.slides_url}
                 <p>
