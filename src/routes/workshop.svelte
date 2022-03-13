@@ -35,7 +35,9 @@
         <div class="row">
             <div class="col-md-5 col-sm-12">
                 <p>
-                    Learn the benefits of automating processes related to code and how to use github actions in order to achieve automation.
+                    Automation is the only way to scale today.
+                    In this workshop we will learn how to speed up your development and deployment processes using github actions.
+                    We will see how you can make sure code quality is maintained while allowing developers to focus on what they are good at - developing software.
                 </p>
                 <a
                     class="button-mix my-3 d-inline-block"
@@ -76,9 +78,11 @@
                 <h2>What are you going to learn:</h2>
 
                 <ul>
-                    <li>using GitHub Actions</li>
-                    <li>writing for production</li>
-                    <li>improving workflow with automation</li>
+                    <li>How to speed up development cycles using github actions</li>
+                    <li>How to use github actions in your github repositories</li>
+                    <li>How to setup Continuous Integration for your projects</li>
+                    <li>How to setup Continuous Deployment for your projects</li>
+                    <li>How can managers use github actions to better manage their teams with github actions</li>
                 </ul>
 
                 <p>
