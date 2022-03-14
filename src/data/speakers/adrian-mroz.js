@@ -1,10 +1,10 @@
 module.exports = {
   name: "Adrian Mróź",
-  position: "Developer",
+  position: "Frontend Engineer",
   company: "Allegro",
   country: "",
   bio: {
-    en: ``,
+    en: `Clojure and functional programming enthusiast. On day job works with TypeScript and brings to people his second passion - Data Visualisation.`,
   },
   avatar_url: "/speakers/adrian-mroz.jpg",
   contact: {
