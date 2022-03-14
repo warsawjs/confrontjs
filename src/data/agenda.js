@@ -55,8 +55,8 @@ const trackOne = [
     start: "11:30",
     end: "12:00",
     duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
+    type: "talk",
+    details: talkBy("Vlad Mystetskyi"),
   },
   {
     start: "12:00",
@@ -127,8 +127,8 @@ const trackTwo = [
     start: "11:30",
     end: "12:00",
     duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
+    type: "talk",
+    details: talkBy("Adrian Mróź"),
   },
   {
     start: "12:00",
