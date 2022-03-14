@@ -1,14 +1,15 @@
 module.exports = {
-  name: "Vlad",
-  position: "",
+  name: "Vlad Mystetskyi",
+  position: "Sr. Team Lead",
   company: "Monday.com",
   country: "",
   bio: {
     en: ``,
   },
-  avatar_url: "",
+  avatar_url: "/speakers/vlad-mystetskyi.jpg",
   contact: {
-    twitter_url: "",
-    github_url: "",
+    twitter_url: "https://twitter.com/vladmystetskyi",
+    github_url: "https://github.com/vladmonday",
+    linkedin_url: "https://www.linkedin.com/in/vlad-mystetskyi-b3413941/",
   },
 };
