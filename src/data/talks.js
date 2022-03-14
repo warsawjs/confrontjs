@@ -15,7 +15,7 @@ module.exports = [
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/avital-tzubeli"),
     slides_url: "",
-    keynote: false,
+    keynote: true,
   },
   {
     title: "Optimize Your JavaScript App's Performance",
@@ -113,6 +113,25 @@ module.exports = [
     abstract: `Closing keynote`,
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/tejas-kumar"),
+    slides_url: "",
+    keynote: true,
+  },
+  {
+    title:
+      "The New Era of No-code/Low-code - Why and how to open your platform for external developers",
+    abstract: `In this session, we will go over the business value, product insights, and technical challenges of how and why to open a previously closed platform for external developers to build on. We will also share an inside look of the monday.com journey to build our API and the monday Apps Framework as integral parts of our LCNC platform, including technical details and important takeaways which will help you to open your existing platform for external developers.`,
+    tech: ["JavaScript", "No Code/Low Code", "Framework"],
+    speaker: require("./speakers/vlad-mystetskyi"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "Deconstructing state management (in React)",
+    abstract: `It feels like every day a new state management library is released. Has Redux’s reign ended? Do you even need a library? Maybe a state hook and context included in React is enough?
+State management has different flavors. I will look into basic hooks, global state libraries like Redux or Mobx and tools sitting in between, like Recoil or Zustand. Libraries like react-query and react-hook-form are also state management solutions in disguise, so let’s not forget about them!
+I will define state management library responsibilities and show you how to evaluate one. After this presentation you will be able to pick state management solution appropriate for your project. Or maybe create your own library - sorry!`,
+    tech: ["React", "State Management", "Libraries"],
+    speaker: require("./speakers/adrian-mroz"),
     slides_url: "",
     keynote: false,
   },
