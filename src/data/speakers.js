@@ -12,4 +12,6 @@ module.exports = [
   require("./speakers/amit-sheen"),
   require("./speakers/tomasz-stachewicz"),
   require("./speakers/lara-sing"),
+  require("./speakers/vlad-mystetskyi"),
+  require("./speakers/adrian-mroz"),
 ];
