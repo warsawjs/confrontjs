@@ -17,4 +17,5 @@ module.exports = [
   require("./partners/kernelgonnapanic.js"),
   require("./partners/sarvendev.js"),
   require("./partners/jaknauczycsieprogramowania.js"),
+  require("./partners/girlsjs.js"),
 ];

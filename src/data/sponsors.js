@@ -15,6 +15,7 @@ module.exports = [
   require("./sponsors/unitygroup"),
   require("./sponsors/tidio"),
   require("./sponsors/daftcode"),
+  require("./sponsors/affirm"),
   // Bronze Sponsor
   // Venue Sponsor
 ];
