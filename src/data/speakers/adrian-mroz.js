@@ -6,7 +6,7 @@ module.exports = {
   bio: {
     en: `Clojure and functional programming enthusiast. On day job works with TypeScript and brings to people his second passion - Data Visualisation.`,
   },
-  avatar_url: "/speakers/adrian-mroz.jpg",
+  avatar_url: "/speakers/adrian-mroz.png",
   contact: {
     twitter_url: "",
     github_url: "https://github.com/adrianmroz",
