@@ -1,13 +1,5 @@
 module.exports = [
   {
-    title: "Singularity 2027",
-    abstract: ``,
-    tech: ["AI", "Virtual Reality", "Games"],
-    speaker: require("./speakers/lara-sing"),
-    slides_url: "",
-    keynote: false,
-  },
-  {
     title: "Design Systems: The journey from chaos to consistency",
     abstract: `Design systems are everywhere. At some point, we’ve all used bootstrap, material, or shoelace.  But we end up tweaking and changing and struggling with out of the box solutions, until we begin to fantasize about creating our own design system. 
     But what does that process look like? What happens behind the scenes? Do we get enough value to justify the cost? 
@@ -41,14 +33,6 @@ module.exports = [
     I am going to talk about how you don't need to consider all the components of design systems, we take what we need and make our project beautiful and scalable. Let's talk about consistency, component library and think of design systems together.`,
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/rakhi-sharma"),
-    slides_url: "",
-    keynote: false,
-  },
-  {
-    title: "Using Data Visualization to Fight COVID-19",
-    abstract: `The years 2020-2021 will be remembered as the years of COVID-19 pandemic. During the pandemic, I was involved in building a web app for the Israel ministry of health. The app visualizes the chain of infection and helps decision makers to understand the characteristics of the virus spreading and other aspects. In this talk, I’ll delve into how we used D3, React and PixiJS in order to build the app.`,
-    tech: ["React.js", "D3.js", "PixiJS.js"],
-    speaker: require("./speakers/gil-fink"),
     slides_url: "",
     keynote: false,
   },
@@ -132,6 +116,35 @@ State management has different flavors. I will look into basic hooks, global sta
 I will define state management library responsibilities and show you how to evaluate one. After this presentation you will be able to pick state management solution appropriate for your project. Or maybe create your own library - sorry!`,
     tech: ["React", "State Management", "Libraries"],
     speaker: require("./speakers/adrian-mroz"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "The Unavoidable Tech debt, or is it?",
+    abstract: `Sooner or later, this topic will come up along the way of developing an app, releasing it and future maintenance. 
+              Should we care? Or shouldn’t we? Is it the biggest elephant in the room? How to talk about it inside and outside the team?
+              What can we do about it and how to prevent it? With this talk, we’ll try to answer those and more questions.
+`,
+    tech: ["App", "Tech Debt", "Teamplay"],
+    speaker: require("./speakers/maciej-kaczanowski"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "Developer complicity: the not so silent productivity killer",
+    abstract: `The talk will focus on how we are working hard to provide our developers with the best conditions to move fast. We will talk a little about the following subjects:
+              What it is to be a modern frontend developer. How does it interfere with the desire to develop faster and give better products?
+              How do we measure ourselves? The pitfalls and what are we doing to avoid these pitfalls`,
+    tech: ["Growth", "Developer", "Product"],
+    speaker: require("./speakers/orr-gottlieb"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "",
+    abstract: ``,
+    tech: ["", "", ""],
+    speaker: require("./speakers/jakub-neander"),
     slides_url: "",
     keynote: false,
   },
