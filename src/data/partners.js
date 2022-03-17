@@ -18,4 +18,9 @@ module.exports = [
   require("./partners/sarvendev.js"),
   require("./partners/jaknauczycsieprogramowania.js"),
   require("./partners/girlsjs.js"),
+  require("./partners/papaseo.js"),
+  require("./partners/marczak.js"),
+  require("./partners/takaoto.js"),
+  require("./partners/szymon-slowik.js"),
+  require("./partners/marketingprogress.js"),
 ];
