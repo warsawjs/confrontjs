@@ -2,7 +2,7 @@ module.exports = {
   name: "Orr Gottlieb",
   position: "Tech Lead",
   company: "Monday.com",
-  country: "",
+  country: "Israel",
   bio: {
     en: ``,
   },
