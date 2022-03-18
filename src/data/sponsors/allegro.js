@@ -1,6 +1,6 @@
 module.exports = {
-  name: "Allegro",
-  url: "https://allegro.pl/",
+  name: "Allegro Tech",
+  url: "https://allegro.tech/",
   type: "Gold",
   logo_url: "/sponsors/logo-allegro.png",
 };
