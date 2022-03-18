@@ -163,7 +163,7 @@
     }
 </style>
 
-<div class="agenda-card { item.type } { getClass() }" class:scrollbarOff={!item.type || item.start === "16:00"} class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'}>
+<div class="agenda-card { item.type } { getClass() }" class:scrollbarOff={!item.type || item.start === "16:00"} class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'|| item.type === 'talk-not-ready'}>
     <div class="agenda-details mx-2">
         <span class="iterator">{ twoDigits(index) }.</span>
 

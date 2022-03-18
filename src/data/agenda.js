@@ -80,11 +80,11 @@ const trackOne = [
     details: talkBy("Maciej Kaczanowski"),
   },
   {
-    start: "15:15",
-    end: "15:45",
+    start: "14:45",
+    end: "15:15",
     duration: "00:15",
-    type: "",
-    details: "Sponsors Slot",
+    type: "talk-not-ready",
+    details: "To Be Announced",
   },
   {
     start: "15:15",
