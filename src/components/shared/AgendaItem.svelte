@@ -156,10 +156,18 @@
         }
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 575px) {
         .tags {
             display: grid;
+            gap:0;
         }
+         .speaker-avatar {
+            width: 200px;
+        }
+        .agenda-content {
+        padding-top: 0;   
+        padding-right: 0; 
+    }
     }
 </style>
 
