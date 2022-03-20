@@ -21,7 +21,7 @@
      price: 1500,
      total: 50,
      quantity: 0,
-     description: 'Stationary access, Welcome dinner with the speakers on December 10, Gift Pack', 
+     description: 'Stationary access, Welcome dinner with the speakers on March 25, Gift Pack', 
      validity: 'Offer valid while stocks last',
      disabled: 'disabled',
     },
