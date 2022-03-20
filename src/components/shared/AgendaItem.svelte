@@ -1,5 +1,7 @@
 <script>
+    import Modal,{getModal} from '../shared/Modal.svelte'
     import SpeakerTitle from '../shared/SpeakerTitle.svelte';
+    import AgendaItemModalContent from './AgendaItemModalContent.svelte';
 
     export let item = {};
     export let index = -1;
@@ -24,16 +26,16 @@
   width: 10px;
 }
   ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
   ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
     border-radius:10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  
-  background: #555; 
-} 
+
+  background: #555;
+}
     .agenda-card {
         margin: 80px auto;
         width: 100%;
@@ -41,10 +43,12 @@
         max-height: 350px;
         max-width: 700px;
         overflow-y: auto;
+        overflow-x: hidden;
         display: flex;
+        cursor: pointer;
     }
 
-    .fix-height { 
+    .fix-height {
         height: 350px !important;
     }
 
@@ -58,7 +62,7 @@
     }
 
     .agenda-content {
-        padding-top: 40px;    
+        padding-top: 40px;
     }
 
 
@@ -171,23 +175,27 @@
     }
 </style>
 
-<div class="agenda-card { item.type } { getClass() }" class:scrollbarOff={!item.type || item.start === "16:00"} class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'|| item.type === 'talk-not-ready'}>
+<div class="agenda-card { item.type } { getClass() }"
+     class:scrollbarOff={!item.type || item.start === "16:00"}
+     class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'|| item.type === 'talk-not-ready'}
+     on:click={()=>getModal(`${index}-${item.details.speaker.name}`).open()}>
+
     <div class="agenda-details mx-2">
         <span class="iterator">{ twoDigits(index) }.</span>
 
         <h2>{ item.start }</h2>
 
         {#if item.type === 'talk' }
-            <a
-                href="/speakers"
-                tabindex="-1"
-            >
+            <Modal id="{`${index}-${item.details.speaker.name}`}">
+                <AgendaItemModalContent item="{item}" index="{index}"></AgendaItemModalContent>
+            </Modal>
+        
                 <img
                     src="{ item.details.speaker.avatar_url }"
                     class="speaker-avatar"
                     alt="{ item.details.speaker.name }"
                 />
-            </a>
+           
         {/if}
     </div>
 
@@ -216,8 +224,6 @@
             <h4 class="talk-title m-0 p-0">
                 { item.details.title }
             </h4>
-
-            <p class="talk-abstract d-none d-sm-block">{ item.details.abstract.trim() }</p>
 
             {#if item.details.slides_url}
                 <p>
