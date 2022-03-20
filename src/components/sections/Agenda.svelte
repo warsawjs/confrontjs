@@ -40,7 +40,7 @@
         </ul>
         <div class="agenda-columns">
             <ul class="list-unstyled">
-                {#each morningOne as item, i}    
+                {#each morningOne as item, i}
                     <li>
                         <AgendaItem item={item} index={2 + i + 1}/>
                     </li>
@@ -63,7 +63,7 @@
         </ul>
         <div class="agenda-columns">
             <ul class="list-unstyled">
-                {#each afternoonOne as item, i}    
+                {#each afternoonOne as item, i}
                     <li>
                         <AgendaItem item={item} index={8 + i + 1}/>
                     </li>
