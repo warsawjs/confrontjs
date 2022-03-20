@@ -177,7 +177,7 @@
 
 <div class="agenda-card { item.type } { getClass() }"
      class:scrollbarOff={!item.type || item.start === "16:00"}
-     class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'|| item.type === 'talk-not-ready'}}
+     class:fix-height={item.type === 'talk' && item.details.speaker.name === 'Yonatan Kra'|| item.type === 'talk-not-ready'}
      on:click={()=>getModal(`${index}-${item.details.speaker.name}`).open()}>
 
     <div class="agenda-details mx-2">
