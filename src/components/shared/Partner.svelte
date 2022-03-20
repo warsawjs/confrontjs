@@ -8,8 +8,8 @@
         text-decoration: none;
     }
     img {
-        max-width: 200px;
-        height: 100px;
+        max-height: 50px;
+        width: auto;
     }
 </style>
 

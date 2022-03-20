@@ -27,22 +27,22 @@ const opnening = [
     type: "talk",
     details: talkBy("Avital Tzubeli"),
   },
-];
-
-const trackOne = [
   {
     start: "10:00",
     end: "10:30",
     duration: "00:30",
     type: "talk",
-    details: talkBy("Eleftheria Batsou"),
+    details: talkBy("Elad Shechter"),
   },
+];
+
+const trackOne = [
   {
     start: "10:30",
     end: "11:00",
     duration: "00:30",
-    type: "",
-    details: "Reserved Sponsor Slot",
+    type: "talk",
+    details: talkBy("Eleftheria Batsou"),
   },
   {
     start: "11:00",
@@ -55,8 +55,8 @@ const trackOne = [
     start: "11:30",
     end: "12:00",
     duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
+    type: "talk",
+    details: talkBy("Vlad Mystetskyi"),
   },
   {
     start: "12:00",
@@ -69,32 +69,25 @@ const trackOne = [
     start: "13:45",
     end: "14:15",
     duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
+    type: "talk",
+    details: talkBy("Tomasz Stachewicz"),
   },
   {
     start: "14:15",
     end: "14:45",
     duration: "00:30",
     type: "talk",
-    details: talkBy("Rakhi Sharma"),
+    details: talkBy("Maciej Kaczanowski"),
   },
   {
     start: "14:45",
     end: "15:15",
-    duration: "00:30",
-    type: "talk",
-    details: talkBy("Tomasz Stachewicz"),
+    duration: "00:15",
+    type: "talk-not-ready",
+    details: "To Be Announced",
   },
   {
     start: "15:15",
-    end: "15:20",
-    duration: "00:05",
-    type: "talk",
-    details: talkBy("Lara Sing"),
-  },
-  {
-    start: "15:20",
     end: "15:45",
     duration: "00:15",
     type: "",
@@ -103,18 +96,11 @@ const trackOne = [
 ];
 const trackTwo = [
   {
-    start: "10:00",
-    end: "10:30",
-    duration: "00:30",
-    type: "talk",
-    details: talkBy("Elad Shechter"),
-  },
-  {
     start: "10:30",
     end: "11:00",
     duration: "00:30",
-    type: "",
-    details: "Reserved Sponsor Slot",
+    type: "talk",
+    details: talkBy("Rakhi Sharma"),
   },
   {
     start: "11:00",
@@ -127,22 +113,22 @@ const trackTwo = [
     start: "11:30",
     end: "12:00",
     duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
+    type: "talk",
+    details: talkBy("Adrian Mróź"),
   },
   {
     start: "12:00",
     end: "12:30",
     duration: "00:30",
     type: "talk",
-    details: talkBy("Gil Fink"),
+    details: talkBy("Jakub Zaiste Neander"),
   },
   {
     start: "13:45",
     end: "14:15",
     duration: "00:30",
-    type: "",
-    details: "Sponsor Slot",
+    type: "talk",
+    details: talkBy("Orr Gottlieb"),
   },
   {
     start: "14:15",
@@ -151,7 +137,6 @@ const trackTwo = [
     type: "talk",
     details: talkBy("Evyatar Alush"),
   },
-
   {
     start: "14:45",
     end: "15:15",

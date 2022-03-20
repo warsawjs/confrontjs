@@ -1,13 +1,5 @@
 module.exports = [
   {
-    title: "Singularity 2027",
-    abstract: ``,
-    tech: ["AI", "Virtual Reality", "Games"],
-    speaker: require("./speakers/lara-sing"),
-    slides_url: "",
-    keynote: false,
-  },
-  {
     title: "Design Systems: The journey from chaos to consistency",
     abstract: `Design systems are everywhere. At some point, we’ve all used bootstrap, material, or shoelace.  But we end up tweaking and changing and struggling with out of the box solutions, until we begin to fantasize about creating our own design system. 
     But what does that process look like? What happens behind the scenes? Do we get enough value to justify the cost? 
@@ -15,12 +7,12 @@ module.exports = [
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/avital-tzubeli"),
     slides_url: "",
-    keynote: false,
+    keynote: true,
   },
   {
-    title: "",
-    abstract: `Nodejs Runtime Performance Tips`,
-    tech: ["JavaScript", "Node.js", "Web Standards"],
+    title: "Optimize Your JavaScript App's Performance",
+    abstract: `Optimization is an unavoidable step in complex applications. The question is: at what stage of the application is it being done and what is the cost. By understanding what’s behind the javascript engine, one can prevent performance issues by writing better javascript and avoiding a big percentage of the optimization phase. In this talk, we will learn about the JS engine, how it works and how it relates to performance. We will then dive into practical examples from real-life applications. Using live coding, we will see how to monitor and fix performance issues. At the end of this talk, you will be able to monitor your app’s performance, tackle performance issues, and note performance bottlenecks while writing or reading the code.`,
+    tech: ["JavaScript", "Performance", "Web Standards"],
     speaker: require("./speakers/yonatan-kra"),
     slides_url: "",
     keynote: false,
@@ -41,14 +33,6 @@ module.exports = [
     I am going to talk about how you don't need to consider all the components of design systems, we take what we need and make our project beautiful and scalable. Let's talk about consistency, component library and think of design systems together.`,
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/rakhi-sharma"),
-    slides_url: "",
-    keynote: false,
-  },
-  {
-    title: "Using Data Visualization to Fight COVID-19",
-    abstract: `The years 2020-2021 will be remembered as the years of COVID-19 pandemic. During the pandemic, I was involved in building a web app for the Israel ministry of health. The app visualizes the chain of infection and helps decision makers to understand the characteristics of the virus spreading and other aspects. In this talk, I’ll delve into how we used D3, React and PixiJS in order to build the app.`,
-    tech: ["React.js", "D3.js", "PixiJS.js"],
-    speaker: require("./speakers/gil-fink"),
     slides_url: "",
     keynote: false,
   },
@@ -113,6 +97,54 @@ module.exports = [
     abstract: `Closing keynote`,
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/tejas-kumar"),
+    slides_url: "",
+    keynote: true,
+  },
+  {
+    title:
+      "The New Era of No-code/Low-code - Why and how to open your platform for external developers",
+    abstract: `In this session, we will go over the business value, product insights, and technical challenges of how and why to open a previously closed platform for external developers to build on. We will also share an inside look of the monday.com journey to build our API and the monday Apps Framework as integral parts of our LCNC platform, including technical details and important takeaways which will help you to open your existing platform for external developers.`,
+    tech: ["JavaScript", "No Code/Low Code", "Framework"],
+    speaker: require("./speakers/vlad-mystetskyi"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "Deconstructing state management (in React)",
+    abstract: `It feels like every day a new state management library is released. Has Redux’s reign ended? Do you even need a library? Maybe a state hook and context included in React is enough?
+State management has different flavors. I will look into basic hooks, global state libraries like Redux or Mobx and tools sitting in between, like Recoil or Zustand. Libraries like react-query and react-hook-form are also state management solutions in disguise, so let’s not forget about them!
+I will define state management library responsibilities and show you how to evaluate one. After this presentation you will be able to pick state management solution appropriate for your project. Or maybe create your own library - sorry!`,
+    tech: ["React", "State Management", "Libraries"],
+    speaker: require("./speakers/adrian-mroz"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "The Unavoidable Tech debt, or is it?",
+    abstract: `Sooner or later, this topic will come up along the way of developing an app, releasing it and future maintenance. 
+              Should we care? Or shouldn’t we? Is it the biggest elephant in the room? How to talk about it inside and outside the team?
+              What can we do about it and how to prevent it? With this talk, we’ll try to answer those and more questions.
+`,
+    tech: ["App", "Tech Debt", "Teamplay"],
+    speaker: require("./speakers/maciej-kaczanowski"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "Developer complicity: the not so silent productivity killer",
+    abstract: `The talk will focus on how we are working hard to provide our developers with the best conditions to move fast. We will talk a little about the following subjects:
+              What it is to be a modern frontend developer. How does it interfere with the desire to develop faster and give better products?
+              How do we measure ourselves? The pitfalls and what are we doing to avoid these pitfalls`,
+    tech: ["Growth", "Developer", "Product"],
+    speaker: require("./speakers/orr-gottlieb"),
+    slides_url: "",
+    keynote: false,
+  },
+  {
+    title: "",
+    abstract: ``,
+    tech: ["", "", ""],
+    speaker: require("./speakers/jakub-neander"),
     slides_url: "",
     keynote: false,
   },

@@ -3,11 +3,11 @@
     import {opnening, trackOne, trackTwo, dinner, closing} from '../../data/agenda';
     export let segment = '';
 
-    const morningOne = [...trackOne.slice(0,5)];
-    const afternoonOne = [...trackOne.slice(5)];
+    const morningOne = [...trackOne.slice(0,4)];
+    const afternoonOne = [...trackOne.slice(4)];
 
-    const morningTwo = [...trackTwo.slice(0,5)];
-    const afternoonTwo = [...trackTwo.slice(5)]
+    const morningTwo = [...trackTwo.slice(0,4)];
+    const afternoonTwo = [...trackTwo.slice(4)]
 </script>
 
 <style>
