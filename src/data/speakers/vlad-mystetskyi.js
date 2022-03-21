@@ -4,7 +4,7 @@ module.exports = {
   company: "Monday.com",
   country: "",
   bio: {
-    en: ``,
+    en: `Vlad is a web technologies enthusiast with 10+ years of experience in the software development industry. He has worked in various positions (System Analyst, Software Developer, Team Leader, and Group Leader) in Ukraine and Israel. His career has been focused on building platforms and frameworks for developers.`,
   },
   avatar_url: "/speakers/vlad-mystetskyi.jpg",
   contact: {

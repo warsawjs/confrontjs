@@ -10,7 +10,8 @@ module.exports = {
   },
   avatar_url: "/speakers/maciej-kaczanowski.jpg",
   contact: {
-    twitter_url: "https://twitter.com/akak_vel_kropas",
+    twitter_url: "https://twitter.com/mekaczanowski",
     linkedin_url: "https://pl.linkedin.com/in/maciej-kaczanowski-189404166",
+    github_url: "https://github.com/kratak",
   },
 };
