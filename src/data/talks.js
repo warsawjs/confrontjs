@@ -93,8 +93,8 @@ module.exports = [
     keynote: false,
   },
   {
-    title: "",
-    abstract: `Closing keynote`,
+    title: "Changing the Game with Developer Experience",
+    abstract: `This talk highlights some of the thought we put into developer experience to take it to the next level, offering insights to other developers to help others create excellent developer and user experience as well.`,
     tech: ["JavaScript", "Node.js", "Web Standards"],
     speaker: require("./speakers/tejas-kumar"),
     slides_url: "",
