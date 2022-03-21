@@ -86,13 +86,6 @@ const trackOne = [
     type: "talk-not-ready",
     details: "To Be Announced",
   },
-  {
-    start: "15:15",
-    end: "15:45",
-    duration: "00:15",
-    type: "",
-    details: "Lightning Talks Session",
-  },
 ];
 const trackTwo = [
   {
@@ -144,13 +137,6 @@ const trackTwo = [
     type: "talk",
     details: talkBy("Yonatan Kra"),
   },
-  {
-    start: "15:15",
-    end: "15:45",
-    duration: "00:30",
-    type: "",
-    details: "Lightning Talks Session",
-  },
 ];
 const dinner = [
   {
@@ -163,6 +149,13 @@ const dinner = [
 ];
 
 const closing = [
+  {
+    start: "15:15",
+    end: "15:45",
+    duration: "00:30",
+    type: "",
+    details: "Lightning Talks Session",
+  },
   {
     start: "16:00",
     end: "16:30",
