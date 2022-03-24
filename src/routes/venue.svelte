@@ -21,6 +21,11 @@
         max-width: 100%;
     }
     }
+
+    .text-custom {
+        color: var(--mix-color);
+        font-size: 27px;
+    }
 </style>
 
 <svelte:head>
@@ -37,7 +42,9 @@
     <Map/>
     <div class="text-center bg-white py-5 ">
         <img class="parking-img" src="/venue/parking-map.png" alt=""/>
+        <h3>In case if finding us were troublesome ask for <span class="text-custom">Kinoteka Cinema</span> in Palac Kultury! :)</h3>
     </div>
+
     <Parking/>
     <WaveType7/>
     <div class="row no-gutters">
