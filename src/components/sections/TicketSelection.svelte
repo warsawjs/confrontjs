@@ -12,7 +12,7 @@
      total: 200,
      quantity: 0,
      description: 'Stationary access to the event', 
-     validity: 'Offer valid while stocks last',
+     validity: 'Ticket sales closed',
      disabled: 'disabled',
     },    
     {
@@ -22,7 +22,7 @@
      total: 50,
      quantity: 0,
      description: 'Stationary access, Welcome dinner with the speakers on March 25, Gift Pack', 
-     validity: 'Offer valid while stocks last',
+     validity: 'Ticket sales closed',
      disabled: 'disabled',
     },
     {
@@ -32,7 +32,7 @@
      total: 20,
      quantity: 0,
      description: 'Regular ticket + Workshop with Yonatan Kra on 25th March', 
-     validity: 'Offer valid while stocks last',
+     validity: 'Ticket sales closed',
      disabled: 'disabled',
     }, 
     {
@@ -42,7 +42,7 @@
      total: 20,
      quantity: 0,
      description: 'Workshop with Yonatan Kra on 25th March', 
-     validity: 'Offer valid while stocks last',
+     validity: 'Ticket sales closed',
      disabled: 'disabled',
     }, 
     {
@@ -159,7 +159,7 @@
     total={ticket.total}
     description={ticket.description}
     validity={ticket.validity}
-    disabled={ticket.title === 'Pre early bird' || ticket.title === 'Pre early bird for 2' || ticket.title === 'Early bird' || ticket.title === 'Early bird for 2'}
+    disabled={true}
     on:decrement={decrement}
     on:increment={increment}
     on:add-to-cart={addToCart}
