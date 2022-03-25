@@ -55,7 +55,7 @@
     <img class="logo-confrontjs" src="/ConfrontJS_logo_512_szara.png" alt="ConfrontJS logo" />
 
         <div class="text-center mb-5 pb-5">
-        <img class="parking-img-homepage" src="/venue/parking-map.png" alt=""/>
+        <img class="parking-img-homepage" src="/venue/parking-map.webp" alt=""/>
         <h3>In case if finding us were troublesome ask for <span class="text-custom">Kinoteka Cinema</span> in Palac Kultury! :)</h3>
         <p class="cheers">✌️ 💜 see you soon! 💜 ✌️</p>
     </div>

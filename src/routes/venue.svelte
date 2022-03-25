@@ -41,7 +41,7 @@
     <Venue/>
     <Map/>
     <div class="text-center bg-white py-5 ">
-        <img class="parking-img" src="/venue/parking-map.png" alt=""/>
+        <img class="parking-img" src="/venue/parking-map.webp" alt=""/>
         <h3>In case if finding us were troublesome ask for <span class="text-custom">Kinoteka Cinema</span> in Palac Kultury! :)</h3>
     </div>
 
