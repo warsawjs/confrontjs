@@ -6,15 +6,15 @@
 
   let tickets = [
     {
-     id:'price_1JjTtwEMmVuoJdChFABlyiY9',
-     title: 'Regular',
-     price: 500,
+     id:'price_1Kh8QmEMmVuoJdChw59QIz4Y',
+     title: 'Last minute',
+     price: 900,
      total: 200,
      quantity: 0,
      description: 'Stationary access to the event', 
-     validity: 'Ticket sales closed',
-     disabled: 'disabled',
-    },    
+     validity: 'Last minute ticket!',
+     disabled: '',
+    },   
     {
      id:'price_1JjTuREMmVuoJdChl1VugtKn',
      title: 'VIP - Premium',
@@ -159,7 +159,7 @@
     total={ticket.total}
     description={ticket.description}
     validity={ticket.validity}
-    disabled={true}
+    disabled={ticket.disabled}
     on:decrement={decrement}
     on:increment={increment}
     on:add-to-cart={addToCart}
