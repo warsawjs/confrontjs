@@ -159,6 +159,7 @@
     total={ticket.total}
     description={ticket.description}
     validity={ticket.validity}
+    planId={ticket.id}
     disabled={ticket.disabled}
     on:decrement={decrement}
     on:increment={increment}
