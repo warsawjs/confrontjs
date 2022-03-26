@@ -59,32 +59,25 @@ const trackOne = [
     details: talkBy("Vlad Mystetskyi"),
   },
   {
-    start: "12:00",
-    end: "12:30",
-    duration: "00:30",
-    type: "talk",
-    details: talkBy("Amit Sheen"),
-  },
-  {
     start: "13:45",
     end: "14:15",
     duration: "00:30",
     type: "talk",
-    details: talkBy("Tomasz Stachewicz"),
+    details: talkBy("Amit Sheen"),
   },
   {
     start: "14:15",
     end: "14:45",
     duration: "00:30",
     type: "talk",
-    details: talkBy("Maciej Kaczanowski"),
+    details: talkBy("Tomasz Stachewicz"),
   },
   {
     start: "14:45",
     end: "15:15",
     duration: "00:15",
-    type: "talk-not-ready",
-    details: "To Be Announced",
+    type: "talk",
+    details: talkBy("Maciej Kaczanowski"),
   },
 ];
 const trackTwo = [
@@ -108,13 +101,6 @@ const trackTwo = [
     duration: "00:30",
     type: "talk",
     details: talkBy("Adrian Mróź"),
-  },
-  {
-    start: "12:00",
-    end: "12:30",
-    duration: "00:30",
-    type: "talk",
-    details: talkBy("Jakub Zaiste Neander"),
   },
   {
     start: "13:45",

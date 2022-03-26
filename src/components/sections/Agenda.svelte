@@ -3,11 +3,11 @@
     import {opnening, trackOne, trackTwo, dinner, closing} from '../../data/agenda';
     export let segment = '';
 
-    const morningOne = [...trackOne.slice(0,4)];
-    const afternoonOne = [...trackOne.slice(4)];
+    const morningOne = [...trackOne.slice(0,3)];
+    const afternoonOne = [...trackOne.slice(3)];
 
-    const morningTwo = [...trackTwo.slice(0,4)];
-    const afternoonTwo = [...trackTwo.slice(4)]
+    const morningTwo = [...trackTwo.slice(0,3)];
+    const afternoonTwo = [...trackTwo.slice(3)]
 </script>
 
 <style>
@@ -42,14 +42,14 @@
             <ul class="list-unstyled">
                 {#each morningOne as item, i}
                     <li>
-                        <AgendaItem item={item} index={2 + i + 1}/>
+                        <AgendaItem item={item} index={2 + i }/>
                     </li>
                 {/each}
             </ul>
             <ul class="list-unstyled">
                 {#each morningTwo as item, i}
                     <li>
-                        <AgendaItem item={item} index={2 + i + 1}/>
+                        <AgendaItem item={item} index={2 + i }/>
                     </li>
                 {/each}
             </ul>
@@ -57,7 +57,7 @@
         <ul class="list-unstyled">
             {#each dinner as item, i}
                 <li>
-                    <AgendaItem item={item} index={8}/>
+                    <AgendaItem item={item} index={7}/>
                 </li>
             {/each}
         </ul>
@@ -65,14 +65,14 @@
             <ul class="list-unstyled">
                 {#each afternoonOne as item, i}
                     <li>
-                        <AgendaItem item={item} index={8 + i + 1}/>
+                        <AgendaItem item={item} index={7 + i + 1}/>
                     </li>
                 {/each}
             </ul>
             <ul class="list-unstyled">
                 {#each afternoonTwo as item, i}
                     <li>
-                        <AgendaItem item={item} index={8 + i + 1}/>
+                        <AgendaItem item={item} index={7 + i + 1}/>
                     </li>
                 {/each}
             </ul>
