@@ -116,26 +116,31 @@
 
     <div class="menu-list">
         <ul class="list-unstyled">
-            <!-- <li>
+
+            <li>
                 <a
                     href="https://forms.gle/wVUKK5HbUEC6S9CD9"
                 >Call for papers</a>
-            </li> -->
+            </li>
+            <!-- 
             <li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href="/agenda">Agenda</a></li>
             <li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href="/speakers">Speakers</a></li>
-            <li><a rel=prefetch class='{segment === "venue" ? "selected" : ""}' href="/venue">Venue</a></li>
             <li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href="/sponsors">Sponsors</a></li>
             <li><a rel=prefetch class='{segment === "workshop" ? "selected" : ""}' href="/workshop">Workshop</a></li>
-            <!-- <li>
-                <a
-                    class="button-primary"
-                    data-content="Be a sponsor"
-                    href="https://forms.gle/bPciWY3f7RyduB6o6"
-                >Be a sponsor</a>
-            </li> -->
+             -->
+            <li><a rel=prefetch class='{segment === "venue" ? "selected" : ""}' href="/venue">Venue</a></li>
+            
             <li>
                 <a
                     class="button-primary"
+                    data-content="Be a sponsor"
+                    href="https://forms.gle/Bdjcfe7QMsNw1KuV9"
+                >Become a sponsor</a>
+            </li>
+
+            <li>
+                <a
+                    class="button-mix"
                     data-content="Buy tickets"
                     href="/buy-a-ticket"
                 >Buy tickets</a>
