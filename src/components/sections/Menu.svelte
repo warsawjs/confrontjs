@@ -119,7 +119,7 @@
 
             <li>
                 <a
-                    href="https://forms.gle/wVUKK5HbUEC6S9CD9"
+                    href="https://forms.gle/R5VqLor6PaEEHSzP7"
                 >Call for papers</a>
             </li>
             <!-- 
