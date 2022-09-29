@@ -1,6 +1,6 @@
-# confrontjs.com
+# confrontjs.pl
 
-[![07 December 2021](https://img.shields.io/badge/conference-07%20December%202019-%2523a64ac9.svg)](https://www.confrontjs.com)
+[![24 March 2023](https://img.shields.io/badge/conference-07%20December%202019-%2523a64ac9.svg)](https://www.confrontjs.pl)
 
 ## Development
 
