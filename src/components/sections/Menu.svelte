@@ -60,14 +60,14 @@
     }
 
     .hamburger-button {
-        color: var(--snow-color);
-        font-size: 15vw;
-        line-height: 50px;
+
         padding: 20px;
         cursor: pointer;
         display: none;
         vertical-align: top;
         user-select: none;
+        height: 30px;
+
     }
 
     .menu-list {
@@ -88,8 +88,10 @@
             height: 60px;
         }
         .hamburger-button {
-            display: inline-block;
+            display: inline-flex;
             padding: 0 0 0 150px;
+            margin-top: 15px;
+            height: 30px;
         }
         .menu-list {
             margin: 0;
@@ -108,10 +110,13 @@
 
 <nav class="nav-container">
     <a class="logo" href="/" title="ConfrontJS">
-        <img class="logo-confrontjs" src="/ConfrontJS_logo_192_biała.png" alt="ConfrontJS logo" />
+        <img class="logo-confrontjs" src="/logo-confrontjs.svg" alt="ConfrontJS logo" />
     </a>
 
-    <label for="hamburger" class="hamburger-button">≣</label>
+    <label for="hamburger" class="hamburger-button">
+        <img class="hamburger-menu-icon" src="/hamburger-menu-icon.svg" alt="hamburger menu icon" />
+    </label>
+
     <input id="hamburger" class="d-none" type="checkbox"/>
 
     <div class="menu-list">
@@ -133,7 +138,7 @@
             <li>
                 <a
                     class="button-primary"
-                    data-content="Be a sponsor"
+                    data-content="Become a sponsor"
                     href="https://forms.gle/Bdjcfe7QMsNw1KuV9"
                 >Become a sponsor</a>
             </li>
