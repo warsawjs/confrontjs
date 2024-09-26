@@ -8,7 +8,7 @@
 </style>
 
 <svelte:head>
-    <title>Agenda • ConfrontJS 2022 • Front-end Conference in Warsaw</title>
+    <title>Agenda • ConfrontJS 2023 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <div class="agenda-page">

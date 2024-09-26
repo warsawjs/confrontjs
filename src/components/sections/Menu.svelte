@@ -60,14 +60,14 @@
     }
 
     .hamburger-button {
-        color: var(--snow-color);
-        font-size: 15vw;
-        line-height: 50px;
+
         padding: 20px;
         cursor: pointer;
         display: none;
         vertical-align: top;
         user-select: none;
+        height: 30px;
+
     }
 
     .menu-list {
@@ -88,8 +88,10 @@
             height: 60px;
         }
         .hamburger-button {
-            display: inline-block;
+            display: inline-flex;
             padding: 0 0 0 150px;
+            margin-top: 15px;
+            height: 30px;
         }
         .menu-list {
             margin: 0;
@@ -108,34 +110,42 @@
 
 <nav class="nav-container">
     <a class="logo" href="/" title="ConfrontJS">
-        <img class="logo-confrontjs" src="/ConfrontJS_logo_192_biała.png" alt="ConfrontJS logo" />
+        <img class="logo-confrontjs" src="/logo-confrontjs.svg" alt="ConfrontJS logo" />
     </a>
 
-    <label for="hamburger" class="hamburger-button">≣</label>
+    <label for="hamburger" class="hamburger-button">
+        <img class="hamburger-menu-icon" src="/hamburger-menu-icon.svg" alt="hamburger menu icon" />
+    </label>
+
     <input id="hamburger" class="d-none" type="checkbox"/>
 
     <div class="menu-list">
         <ul class="list-unstyled">
-            <!-- <li>
+
+            <li>
                 <a
-                    href="https://forms.gle/wVUKK5HbUEC6S9CD9"
+                    href="https://forms.gle/R5VqLor6PaEEHSzP7"
                 >Call for papers</a>
-            </li> -->
+            </li>
+            <!-- 
             <li><a rel=prefetch class='{segment === "agenda" ? "selected" : ""}' href="/agenda">Agenda</a></li>
             <li><a rel=prefetch class='{segment === "speakers" ? "selected" : ""}' href="/speakers">Speakers</a></li>
-            <li><a rel=prefetch class='{segment === "venue" ? "selected" : ""}' href="/venue">Venue</a></li>
             <li><a rel=prefetch class='{segment === "sponsors" ? "selected" : ""}' href="/sponsors">Sponsors</a></li>
             <li><a rel=prefetch class='{segment === "workshop" ? "selected" : ""}' href="/workshop">Workshop</a></li>
-            <!-- <li>
-                <a
-                    class="button-primary"
-                    data-content="Be a sponsor"
-                    href="https://forms.gle/bPciWY3f7RyduB6o6"
-                >Be a sponsor</a>
-            </li> -->
+             -->
+            <li><a rel=prefetch class='{segment === "venue" ? "selected" : ""}' href="/venue">Venue</a></li>
+            
             <li>
                 <a
                     class="button-primary"
+                    data-content="Become a sponsor"
+                    href="https://forms.gle/Bdjcfe7QMsNw1KuV9"
+                >Become a sponsor</a>
+            </li>
+
+            <li>
+                <a
+                    class="button-mix"
                     data-content="Buy tickets"
                     href="/buy-a-ticket"
                 >Buy tickets</a>

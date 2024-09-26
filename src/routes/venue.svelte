@@ -24,12 +24,12 @@
 </style>
 
 <svelte:head>
-    <title>Venue • ConfrontJS 2021 • Front-end Conference in Warsaw</title>
+    <title>Venue • ConfrontJS 2023 • Front-end Conference in Warsaw</title>
 </svelte:head>
 
 <Banner image="/venue/kinoteka-banner1.png">
-    <p slot="description">26 March 2022 in Warsaw, Poland</p>
-    <h1 slot="header">ConfrontJS 2022 Venue</h1>
+    <p slot="description">24 March 2023 in Warsaw, Poland</p>
+    <h1 slot="header">ConfrontJS 2023 Venue</h1>
 </Banner>
 
 <div class="venue-page">

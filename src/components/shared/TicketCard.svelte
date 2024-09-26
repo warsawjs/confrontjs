@@ -125,6 +125,6 @@
 <!--    <span class="quantity-display">{quantity} / {total}</span>-->
 <!--  </div>-->
   <div class="confirm">
-    <a href="https://app.easycart.pl/checkout/confrontjs/confrontjs?plan={planId}&promo=" type="button" class="button-mix">Buy</a>
+    <a href="https://app.easycart.pl/checkout/confrontjs/confrontjs-2023?plan={planId}&promo=" type="button" class="button-mix">Buy</a>
   </div>
 </article>
